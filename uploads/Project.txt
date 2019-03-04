@@ -1,0 +1,41 @@
+Needs to look good
+ - For all emails please use a good looking and responsive free template
+
+.htaccess
+ - Make it so that domain.com/some-company-name goes to Main.php?redirect=some-company-name
+
+Main.php (assuming we're at "some-company-name")
+ - A "Download All" button that opens a Sweet Alert 2.0 (see below) where the file is a .zip of all the documents at this location
+ - Swipable carousel of documents (with left and right navigation arrows)
+   - Is this okay to use? http://kenwheeler.github.io/slick
+   - Each carousel item should have:
+     - The name of the document
+     - The brief description of the document (if available)
+     - The thumbnail of the document
+     - A "Get" button with a Font Awesome "file-download" icon to the left of the text
+       - Tapping this button should open a Sweet Alert 2.0
+         - The HTML inside the Sweet Alert 2.0:
+           - Email (the document to themselves)
+           - Text (the document to themselves)
+           - Download (the document)
+             - Attempt to use the Web Share API (better) and if it's not compatible then do something like what's in Download.php (attached, worse)
+           - Dropbox (upload document)
+           - Box (upload document)
+           - Google Drive (upload document)
+           - OneDrive (upload document)
+
+Basic web panel
+ - Login, logout, retrieve forgotten password
+ - Upload company logo
+ - Upload documents (we should be able to specify allowed file extensions)
+   - For each uploaded document, if it's not a PDF file, please convert it to a PDF file
+     - Then please create a 350px width by auto height thumbnail jpg from the cover of the PDF document
+ - Manage uploaded documents
+   - Name or rename the documents
+   - Optionally provide a short description for each document
+   - Delete the documents
+   - Specify the order in which they will appear in the frontend (see the swipable carousel above)
+ - Print out a PDF file sign that we have for them to promote their new service
+ - Order a physical sign that we have to promote their new service and the shipping label will be created via Shippo API
+   - Notify us via email (SendGrid)
+ - Subscribe, upgrade, downgrade, or unsubscribe to our plans using Chargebee
