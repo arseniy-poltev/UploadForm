@@ -16,7 +16,14 @@ if (!is_null($_POST["file_name"])) {
     /*
      Upload files into server
     */
-    move_uploaded_file($_FILES["upload_file"]["tmp_name"], $upload_filename);
+
+    if (
+        $extention == 'csv'
+        || $extention == 'xls'
+        || $extention == 'xlsx'
+        || $extention == 'json'
+    )
+        move_uploaded_file($_FILES["upload_file"]["tmp_name"], $upload_filename);
 
     /*
         Parsing file content into Array
