@@ -72,11 +72,14 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="table_list">Select table</label>
-                    <select class="form-control mb-2 mr-sm-5" name="table_selector" id="table_selector">
-                        <?php foreach ($table_list as $re)
-                            echo '<option value="' . $re['table_name'] . '">' . $re['table_name'] . '</option>';
-                        ?>
+                    <label for="table_list">Select Geocoding Service</label>
+                    <select class="form-control mb-2 mr-sm-5" name="geocoding_selector" id="geocoding_selector">
+                        <option value="uni_heid">Uni Heidelberg openroute</option>
+                        <option value="google_map">Google maps</option>
+                        <option value="no_geocoding">No geocoding</option>
+<!--                        --><?php //foreach ($table_list as $re)
+//                            echo '<option value="' . $re['table_name'] . '">' . $re['table_name'] . '</option>';
+//                        ?>
                     </select>
                 </div>
                 <!--        <div class="form-group">-->
@@ -278,7 +281,7 @@
             type: "post",
             dataType: "json",
             data: {
-                table: $('#table_selector').val()
+                table: 'm_sales_regions'
             },
             success: function (res) {
                 content = '';
@@ -332,14 +335,12 @@
             data: data,
             dataType: "json",
             success: function (res) {
-                alert('sss');
                exit_loader();
                 if (res == 'success') {
                     dispSuccessAlarm("File uploaded successfully");
                 }
             },
             error: function () {
-                alert("ffffff");
                 exit_loader();
             }
         })

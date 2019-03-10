@@ -251,6 +251,8 @@ class UploadManager extends CI_Controller
         $uploads_root = FCPATH . $target_file_root . '/';
 
         $api_string = $_POST['api_list'];
+        $geocoding = $_POST['geocoding_selector'];
+        $table_name = 'm_sales_regions';
         $api = explode(',', $api_string);
 
         if (!is_null($_POST["file_name"])) {
@@ -311,7 +313,6 @@ class UploadManager extends CI_Controller
             /*
               Get map table data
             */
-            $table_name = trim($_POST['table_selector']);
             $model_2 = new Mysql($this->host, $this->user, $this->password, $this->db_2);
             $map_data = $model_2->where('table_name', $table_name)
 //								->where('file_name', $_POST["file_name"])
@@ -487,29 +488,34 @@ class UploadManager extends CI_Controller
 
 							$latitude = '';
                             $longitude = '';
-                            /* Location Information Google (ID=61)*/
-                            if (in_array('61', $api)) {
-                                $json_api = $this->get_Sales_region_Api(61, $country_code, $r_state, $r_cluster_1);
 
-                                if (isset($json_api['results'][0]['geometry'])) {
-                                    $latitude = $json_api['results'][0]['geometry']['location']['lat'];
-                                    $longitude = $json_api['results'][0]['geometry']['location']['lng'];
-                                } else {
-                                    $latitude = '';
-                                    $longitude = '';
+                            if ($geocoding == 'google_map') {
+                                /* Location Information Google (ID=61)*/
+                                if (in_array('61', $api)) {
+                                    $json_api = $this->get_Sales_region_Api(61, $country_code, $r_state, $r_cluster_1);
+
+                                    if (isset($json_api['results'][0]['geometry'])) {
+                                        $latitude = $json_api['results'][0]['geometry']['location']['lat'];
+                                        $longitude = $json_api['results'][0]['geometry']['location']['lng'];
+                                    } else {
+                                        $latitude = '';
+                                        $longitude = '';
+                                    }
                                 }
                             }
 
-                            /* Location Information OpentouteService (ID=68)*/
-                            if (in_array('68', $api)) {
-                                $json_api = $this->get_Sales_region_Api(68, $country_code, $r_state, $r_cluster_1);
+                            if ($geocoding == 'uni_heid') {
+                                /* Location Information OpentouteService (ID=68)*/
+                                if (in_array('68', $api)) {
+                                    $json_api = $this->get_Sales_region_Api(68, $country_code, $r_state, $r_cluster_1);
 
-                                if (isset($json_api['results'][0]['geometry'])) {
-                                    $latitude = $json_api['results'][0]['geometry']['location']['lat'];
-                                    $longitude = $json_api['results'][0]['geometry']['location']['lng'];
-                                } else {
-                                    $latitude = '';
-                                    $longitude = '';
+                                    if (isset($json_api['results'][0]['geometry'])) {
+                                        $latitude = $json_api['results'][0]['geometry']['location']['lat'];
+                                        $longitude = $json_api['results'][0]['geometry']['location']['lng'];
+                                    } else {
+                                        $latitude = '';
+                                        $longitude = '';
+                                    }
                                 }
                             }
 
@@ -517,8 +523,11 @@ class UploadManager extends CI_Controller
                                 $temp_item['r_addtionals'] = json_encode($population_json);
                             }
 
-                            $temp_item['r_longitude'] = $longitude;
-                            $temp_item['r_latitude'] = $latitude;
+                            if ($longitude != '' && $latitude != '') {
+                                $temp_item['r_longitude'] = $longitude;
+                                $temp_item['r_latitude'] = $latitude;
+                            }
+                            $temp_item['lastupdated'] = date('Y-m-d h:i:s');
 
 							$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
 							$sql1 = $model_1->insert($real_name, $array_data[$i]);
