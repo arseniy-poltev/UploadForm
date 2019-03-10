@@ -6,20 +6,25 @@ class Mapping_model extends CI_Model
 
 
 	public function get_count($sql){
-		$query = $this->db->query($sql);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+		$query = $db_2->query($sql);
 		$result = $query->row_array();
 		return  $result["count(*)"];
 	}
 
 	public function get_content($sql){
-		$query = $this->db->query($sql);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+
+        $query = $db_2->query($sql);
 		$result = $query->result_array();
 		return $result;
 	}
 
 	function get($id) {
-		$this->db->where('id', $id);
-		$query = $this->db->get($this->table_name);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+
+        $db_2->where('id', $id);
+		$query = $db_2->get($this->table_name);
 		$result = $query->result_array();
 
 		if(count($result) > 0) {
@@ -31,20 +36,26 @@ class Mapping_model extends CI_Model
 	}
 
 	function save($data) {
-		$this->db->insert($this->table_name, $data);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+
+        $db_2->insert($this->table_name, $data);
 		return true;
 	}
 
 	function update($id, $data)
 	{
-		$this->db->where('id', $id);
-		$this->db->update($this->table_name, $data);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+
+        $db_2->where('id', $id);
+        $db_2->update($this->table_name, $data);
 		return true;
 	}
 
 	function delete($id){
-		$this->db->where('id', $id);
-		$this->db->delete($this->table_name);
+        $db_2 = $this->load->database('default_2_transform_data', TRUE);
+
+        $db_2->where('id', $id);
+        $db_2->delete($this->table_name);
 		return true;
 	}
 }

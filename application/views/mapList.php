@@ -243,7 +243,10 @@
 
 
 	$('#add_record').on('click', function () {
-		$('#map_form')[0].reset();
+		// $('#map_form')[0].reset();
+
+        $('input[name="f_field"]').val('');
+        $('input[name="d_field"]').val('');
 		record_id = '';
 		$('#form-modal').modal('show');
 	});
@@ -264,7 +267,9 @@
 			"data": form_data,
 			success:function (res) {
 				if (res.state == 1) {
-					$('#map_form')[0].reset();
+					// $('#map_form')[0].reset();
+                    $('input[name="f_field"]').val('');
+                    $('input[name="d_field"]').val('');
 					record_id = '';
 					$('#form-modal').modal('hide');
 					table.ajax.reload(null, false);
@@ -275,7 +280,9 @@
 
 	$('#form_cancel').on('click', function () {
 		record_id = '';
-		$('#map_form')[0].reset();
+		// $('#map_form')[0].reset();
+        $('input[name="f_field"]').val('');
+        $('input[name="d_field"]').val('');
 		$('#form-modal').modal('hide');
 	});
 

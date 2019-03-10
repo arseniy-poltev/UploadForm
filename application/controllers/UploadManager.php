@@ -27,12 +27,8 @@ class UploadManager extends CI_Controller
 
     public function index()
     {
-        $this->load->library('Mysql');
-        $db_model = new Mysql($this->host, $this->user, $this->password, $this->db_2);
-        $res = $db_model->where('table_schema', '2_transform_data')->get('information_schema.tables', 'table_name');
-        $data['table_list'] = $res;
-
-        $this->load->view('index', $data);
+        $this->load->view('file_uploads/common/header');
+        $this->load->view('file_uploads/sales_regions');
     }
 
     public function getApiList() {

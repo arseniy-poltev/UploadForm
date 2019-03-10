@@ -177,7 +177,7 @@ class Mysql
 
 	public function query($qry, $return = false)
 	{
-		$link =& self::connection();
+		$link = self::connection();
 		self::set('last_query', $qry);
 		$result = mysqli_query($link, $qry);
 		if (is_resource($result)) {
