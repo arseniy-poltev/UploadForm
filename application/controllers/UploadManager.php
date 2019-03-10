@@ -269,6 +269,7 @@ class UploadManager extends CI_Controller
             )
                 move_uploaded_file($_FILES["upload_file"]["tmp_name"], $upload_filename);
 
+
             /*
                 Parsing file content into Array
             */
@@ -276,7 +277,6 @@ class UploadManager extends CI_Controller
 
             $start_num = $_POST['start_num'];
             $end_num = $_POST['end_num'];
-//            $array_fields = explode(',', $_POST['array_fields']);
 
 
             $array_fields = array();
@@ -366,7 +366,7 @@ class UploadManager extends CI_Controller
                         }
 
 
-                        for ($i = $start_num - 1; $i < $end_num - 1; $i++) {
+                        for ($i = $start_num - 1; $i < $end_num ; $i++) {
                             $temp_item = array();
                             foreach ($map_object as $key => $value) {
                                 $temp_item[$value] = trim($array_data[$i][$key]);
@@ -388,7 +388,7 @@ class UploadManager extends CI_Controller
                             if (in_array('18', $api)) {
                                 $json_api = $this->get_Sales_region_Api(18, $country_code);
 
-                                if (isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     /*--------------------------------------------------------*/
                                     $current_population2022 = $json_api['dataset']['data'][0][1];
                                     $current_population2021 = $json_api['dataset']['data'][1][1];
@@ -414,7 +414,7 @@ class UploadManager extends CI_Controller
                             if (in_array('53', $api)) {
                                 $json_api = $this->get_Sales_region_Api(53, $country_code);
 
-                                if(isset($json_api['dataset'])) {
+                                if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $employment = $json_api['dataset']['data'][0][1];
                                 } else  {
                                     $employment = '';
@@ -427,7 +427,7 @@ class UploadManager extends CI_Controller
                             /*Unemployments (ID=54)*/
                             if (in_array('54', $api)) {
                                 $json_api = $this->get_Sales_region_Api(54, $country_code);
-                                if(isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $unemployment = $json_api['dataset']['data'][0][1];
                                 } else  {
                                     $unemployment = '';
@@ -440,7 +440,7 @@ class UploadManager extends CI_Controller
 
                             if (in_array('55', $api)) {
                                 $json_api = $this->get_Sales_region_Api(55, $country_code);
-                                if (isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $gdp_deflator = $json_api['dataset']['data'][0][1];
                                 } else {
                                     $gdp_deflator = '';
@@ -451,7 +451,7 @@ class UploadManager extends CI_Controller
                             /*GNI Deflatpr (ID=57)*/
                             if (in_array('57', $api)) {
                                 $json_api = $this->get_Sales_region_Api(57, $country_code);
-                                if (isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $gni_deflator = $json_api['dataset']['data'][0][1];
                                 } else {
                                     $gni_deflator = '';
@@ -463,7 +463,7 @@ class UploadManager extends CI_Controller
                             /*Gradutes (ID=58)*/
                             if (in_array('58', $api)) {
                                 $json_api = $this->get_Sales_region_Api(58, $country_code);
-                                if (isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $science_gradiates = $json_api['dataset']['data'][0][1];
                                 } else {
                                     $science_gradiates = '';
@@ -476,7 +476,7 @@ class UploadManager extends CI_Controller
                             if (in_array('59', $api)) {
                                 $json_api = $this->get_Sales_region_Api(59, $country_code);
 
-                                if (isset($json_api['dataset'])) {
+								if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
                                     $capacityutilization = $json_api['dataset']['data'][0][1];
                                 } else {
                                     $capacityutilization = '';
@@ -484,7 +484,8 @@ class UploadManager extends CI_Controller
                                 $population_json["capacityutilization"] = $capacityutilization;
                             }
 
-                            $latitude = '';
+
+							$latitude = '';
                             $longitude = '';
                             /* Location Information Google (ID=61)*/
                             if (in_array('61', $api)) {
@@ -520,11 +521,11 @@ class UploadManager extends CI_Controller
                             $temp_item['r_latitude'] = $latitude;
 
 							$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
-							$sql1 = $model_1->insert($real_name, $item);
+							$sql1 = $model_1->insert($real_name, $array_data[$i]);
 
 							$model_2 = new Mysql($this->host, $this->user, $this->password, $this->db_2);
 							$model_2->insert($table_name, $temp_item);
-                        }
+						}
                         break;
                     case 'm_materials':
                         foreach ($array_data as $item) {

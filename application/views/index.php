@@ -318,7 +318,6 @@
             api_list.push(val.name);
         });
         data.append('api_list', api_list);
-        data.append('array_data', array_data);
         data.append('array_fields', array_fields);
         $('#api_modal').modal('hide');
 
