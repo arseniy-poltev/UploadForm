@@ -272,24 +272,31 @@ class UploadManager extends CI_Controller
             /*
                 Parsing file content into Array
             */
-            $fields = array();
+
+
+            $start_num = $_POST['start_num'];
+            $end_num = $_POST['end_num'];
+//            $array_fields = explode(',', $_POST['array_fields']);
+
+
+            $array_fields = array();
             if ($extention == 'csv'
                 || $extention == 'xls'
                 || $extention == 'xlsx'
                 || $extention == 'json') {
                 switch ($extention) {
                     case 'csv':
-                        $array = $fields = array();
+                        $array_data = $array_fields = array();
                         $i = 0;
                         $handle = @fopen($upload_filename, "r");
                         if ($handle) {
                             while (($row = fgetcsv($handle, 4096)) !== false) {
-                                if (empty($fields)) {
-                                    $fields = $row;
+                                if (empty($array_fields)) {
+                                    $array_fields = $row;
                                     continue;
                                 }
                                 foreach ($row as $k => $value) {
-                                    $array[$i][$fields[$k]] = $value;
+                                    $array_data[$i][$array_fields[$k]] = $value;
                                 }
                                 $i++;
                             }
@@ -301,20 +308,16 @@ class UploadManager extends CI_Controller
                 }
             }
 
-
-            $start_num = $_POST['start_num'];
-            $end_num = $_POST['end_num'];
-            $array_data = $_POST['array_data'];
-            $array_fields = $_POST['array_fields'];
-
             /*
               Get map table data
             */
-            $table_name = $_POST['table_selector'];
+            $table_name = trim($_POST['table_selector']);
             $model_2 = new Mysql($this->host, $this->user, $this->password, $this->db_2);
             $map_data = $model_2->where('table_name', $table_name)
 //								->where('file_name', $_POST["file_name"])
                 ->get('field_mapping_table', 'f_field,d_field');
+
+
 
             if ($map_data != false && count($map_data) > 0) {
 
@@ -327,7 +330,7 @@ class UploadManager extends CI_Controller
                 /*
                   Create table with name as Filename
                 */
-                $res = $model_1->create_table($fields, $real_name);
+                $res = $model_1->create_table($array_fields, $real_name);
 
 
                 /*
@@ -341,7 +344,6 @@ class UploadManager extends CI_Controller
                 foreach ($map_data as $item) {
                     $map_object[$item['f_field']] = $item['d_field'];
                 }
-
 
                 switch ($table_name) {
 
@@ -363,26 +365,23 @@ class UploadManager extends CI_Controller
                             }
                         }
 
-                        $i = 0;
-                        foreach ($array as $item) {
 
-
+                        for ($i = $start_num - 1; $i < $end_num - 1; $i++) {
                             $temp_item = array();
                             foreach ($map_object as $key => $value) {
-                                $temp_item[$value] = trim($item[$key]);
+                                $temp_item[$value] = trim($array_data[$i][$key]);
                             }
 
                             // Api request
 
-                            $country_name = trim($item[$country_key]);
+                            $country_name = trim($array_data[$i][$country_key]);
 
                             $model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_0);
                             $country_model = $model_1->where('country', $country_name)->get('m_country_code');
 
                             $country_code = $country_model[0]['code'];
-                            $r_state = trim($item[$r_state_key]);
-                            $r_cluster_1 = trim($item[$r_cluster1_key]);
-
+                            $r_state = trim($array_data[$i][$r_state_key]);
+                            $r_cluster_1 = trim($array_data[$i][$r_cluster1_key]);
 
                             $population_json = array();
                             /* Population Projection (ID = 18)  */
@@ -434,7 +433,6 @@ class UploadManager extends CI_Controller
                                     $unemployment = '';
                                 }
                                 $population_json["unemployment"] = $unemployment;
-
                             }
 
 
@@ -448,7 +446,6 @@ class UploadManager extends CI_Controller
                                     $gdp_deflator = '';
                                 }
                                 $population_json["gdp_deflator"] = $gdp_deflator;
-
                             }
 
                             /*GNI Deflatpr (ID=57)*/
@@ -518,6 +515,7 @@ class UploadManager extends CI_Controller
                             if ($population_json){
                                 $temp_item['r_addtionals'] = json_encode($population_json);
                             }
+
                             $temp_item['r_longitude'] = $longitude;
                             $temp_item['r_latitude'] = $latitude;
 
@@ -529,7 +527,7 @@ class UploadManager extends CI_Controller
                         }
                         break;
                     case 'm_materials':
-                        foreach ($array as $item) {
+                        foreach ($array_data as $item) {
                             $model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
                             $model_1->insert($real_name, $item);
 

@@ -5001,3 +5001,1583 @@ DEBUG - 2019-03-10 05:37:38 --> Config file loaded: E:\xampp\htdocs\form_project
 INFO - 2019-03-10 05:37:38 --> Model "Mapping_model" initialized
 INFO - 2019-03-10 05:37:38 --> Final output sent to browser
 DEBUG - 2019-03-10 05:37:38 --> Total execution time: 0.1166
+INFO - 2019-03-10 05:47:52 --> Config Class Initialized
+INFO - 2019-03-10 05:47:52 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:47:52 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:47:52 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:47:52 --> URI Class Initialized
+INFO - 2019-03-10 05:47:52 --> Router Class Initialized
+INFO - 2019-03-10 05:47:52 --> Output Class Initialized
+INFO - 2019-03-10 05:47:52 --> Security Class Initialized
+DEBUG - 2019-03-10 05:47:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:47:52 --> Input Class Initialized
+INFO - 2019-03-10 05:47:52 --> Language Class Initialized
+INFO - 2019-03-10 05:47:52 --> Loader Class Initialized
+INFO - 2019-03-10 05:47:52 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:47:52 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:47:52 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:47:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:47:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:47:52 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:47:52 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:47:52 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:47:52 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:47:52 --> Final output sent to browser
+DEBUG - 2019-03-10 05:47:52 --> Total execution time: 0.1210
+INFO - 2019-03-10 05:48:01 --> Config Class Initialized
+INFO - 2019-03-10 05:48:01 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:48:01 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:48:01 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:48:01 --> URI Class Initialized
+INFO - 2019-03-10 05:48:01 --> Router Class Initialized
+INFO - 2019-03-10 05:48:01 --> Output Class Initialized
+INFO - 2019-03-10 05:48:01 --> Security Class Initialized
+DEBUG - 2019-03-10 05:48:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:48:01 --> Input Class Initialized
+INFO - 2019-03-10 05:48:01 --> Language Class Initialized
+INFO - 2019-03-10 05:48:01 --> Loader Class Initialized
+INFO - 2019-03-10 05:48:01 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:48:01 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:48:01 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:48:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:48:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:48:01 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:48:01 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:48:01 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:48:01 --> Final output sent to browser
+DEBUG - 2019-03-10 05:48:01 --> Total execution time: 0.1214
+INFO - 2019-03-10 05:48:05 --> Config Class Initialized
+INFO - 2019-03-10 05:48:05 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:48:05 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:48:05 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:48:05 --> URI Class Initialized
+INFO - 2019-03-10 05:48:05 --> Router Class Initialized
+INFO - 2019-03-10 05:48:05 --> Output Class Initialized
+INFO - 2019-03-10 05:48:05 --> Security Class Initialized
+DEBUG - 2019-03-10 05:48:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:48:05 --> Input Class Initialized
+INFO - 2019-03-10 05:48:05 --> Language Class Initialized
+INFO - 2019-03-10 05:48:05 --> Loader Class Initialized
+INFO - 2019-03-10 05:48:05 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:48:05 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:48:05 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:48:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:48:06 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:48:06 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:48:06 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:48:06 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 312
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'ZIP' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'Sales Region 2' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 351
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 357
+ERROR - 2019-03-10 05:48:06 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 358
+ERROR - 2019-03-10 05:48:09 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+ERROR - 2019-03-10 05:48:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\form_project\system\core\Exceptions.php:271) E:\xampp\htdocs\form_project\system\core\Common.php 570
+INFO - 2019-03-10 05:49:44 --> Config Class Initialized
+INFO - 2019-03-10 05:49:44 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:49:44 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:49:44 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:49:44 --> URI Class Initialized
+INFO - 2019-03-10 05:49:44 --> Router Class Initialized
+INFO - 2019-03-10 05:49:44 --> Output Class Initialized
+INFO - 2019-03-10 05:49:44 --> Security Class Initialized
+DEBUG - 2019-03-10 05:49:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:49:44 --> Input Class Initialized
+INFO - 2019-03-10 05:49:44 --> Language Class Initialized
+INFO - 2019-03-10 05:49:44 --> Loader Class Initialized
+INFO - 2019-03-10 05:49:44 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:49:44 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:49:44 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:49:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:49:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:49:44 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:49:44 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:49:44 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:49:44 --> Final output sent to browser
+DEBUG - 2019-03-10 05:49:44 --> Total execution time: 0.1306
+INFO - 2019-03-10 05:49:49 --> Config Class Initialized
+INFO - 2019-03-10 05:49:49 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:49:49 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:49:49 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:49:49 --> URI Class Initialized
+INFO - 2019-03-10 05:49:49 --> Router Class Initialized
+INFO - 2019-03-10 05:49:49 --> Output Class Initialized
+INFO - 2019-03-10 05:49:49 --> Security Class Initialized
+DEBUG - 2019-03-10 05:49:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:49:49 --> Input Class Initialized
+INFO - 2019-03-10 05:49:49 --> Language Class Initialized
+INFO - 2019-03-10 05:49:49 --> Loader Class Initialized
+INFO - 2019-03-10 05:49:49 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:49:49 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:49:49 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:49:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:49:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:49:49 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:49:49 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:49:49 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 312
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'ZIP' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'Sales Region 2' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 346
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 351
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 357
+ERROR - 2019-03-10 05:49:50 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 358
+ERROR - 2019-03-10 05:49:52 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+ERROR - 2019-03-10 05:49:52 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\form_project\system\core\Exceptions.php:271) E:\xampp\htdocs\form_project\system\core\Common.php 570
+INFO - 2019-03-10 05:50:54 --> Config Class Initialized
+INFO - 2019-03-10 05:50:54 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:50:54 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:50:54 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:50:54 --> URI Class Initialized
+INFO - 2019-03-10 05:50:54 --> Router Class Initialized
+INFO - 2019-03-10 05:50:54 --> Output Class Initialized
+INFO - 2019-03-10 05:50:54 --> Security Class Initialized
+DEBUG - 2019-03-10 05:50:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:50:54 --> Input Class Initialized
+INFO - 2019-03-10 05:50:54 --> Language Class Initialized
+INFO - 2019-03-10 05:50:54 --> Loader Class Initialized
+INFO - 2019-03-10 05:50:54 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:50:54 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:50:54 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:50:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:50:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:50:54 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:50:54 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:50:54 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:50:54 --> Final output sent to browser
+DEBUG - 2019-03-10 05:50:54 --> Total execution time: 0.1321
+INFO - 2019-03-10 05:50:58 --> Config Class Initialized
+INFO - 2019-03-10 05:50:58 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:50:58 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:50:58 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:50:58 --> URI Class Initialized
+INFO - 2019-03-10 05:50:58 --> Router Class Initialized
+INFO - 2019-03-10 05:50:58 --> Output Class Initialized
+INFO - 2019-03-10 05:50:58 --> Security Class Initialized
+DEBUG - 2019-03-10 05:50:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:50:58 --> Input Class Initialized
+INFO - 2019-03-10 05:50:58 --> Language Class Initialized
+INFO - 2019-03-10 05:50:58 --> Loader Class Initialized
+INFO - 2019-03-10 05:50:58 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:50:58 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:50:58 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:50:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:50:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:50:58 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:50:58 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:50:58 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 312
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable E:\xampp\htdocs\form_project\application\libraries\Mysql.php 314
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'ZIP' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 342
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 342
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'Sales Region 2' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 342
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 342
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 342
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'country_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 347
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'state_code' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 353
+ERROR - 2019-03-10 05:50:58 --> Severity: Warning --> Illegal string offset 'Sales Region 1' E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 354
+ERROR - 2019-03-10 05:51:02 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+ERROR - 2019-03-10 05:51:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\form_project\system\core\Exceptions.php:271) E:\xampp\htdocs\form_project\system\core\Common.php 570
+INFO - 2019-03-10 05:53:16 --> Config Class Initialized
+INFO - 2019-03-10 05:53:16 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:53:16 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:53:16 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:53:16 --> URI Class Initialized
+INFO - 2019-03-10 05:53:16 --> Router Class Initialized
+INFO - 2019-03-10 05:53:16 --> Output Class Initialized
+INFO - 2019-03-10 05:53:16 --> Security Class Initialized
+DEBUG - 2019-03-10 05:53:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:53:16 --> Input Class Initialized
+INFO - 2019-03-10 05:53:16 --> Language Class Initialized
+INFO - 2019-03-10 05:53:16 --> Loader Class Initialized
+INFO - 2019-03-10 05:53:16 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:53:16 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:53:16 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:53:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:53:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:53:16 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:53:16 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:53:16 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:53:16 --> Final output sent to browser
+DEBUG - 2019-03-10 05:53:16 --> Total execution time: 0.1169
+INFO - 2019-03-10 05:53:20 --> Config Class Initialized
+INFO - 2019-03-10 05:53:20 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:53:20 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:53:20 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:53:20 --> URI Class Initialized
+INFO - 2019-03-10 05:53:20 --> Router Class Initialized
+INFO - 2019-03-10 05:53:20 --> Output Class Initialized
+INFO - 2019-03-10 05:53:20 --> Security Class Initialized
+DEBUG - 2019-03-10 05:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:53:20 --> Input Class Initialized
+INFO - 2019-03-10 05:53:20 --> Language Class Initialized
+INFO - 2019-03-10 05:53:20 --> Loader Class Initialized
+INFO - 2019-03-10 05:53:20 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:53:20 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:53:21 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:53:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:53:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:53:21 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:53:21 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:53:21 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:53:34 --> Config Class Initialized
+INFO - 2019-03-10 05:53:34 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:53:34 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:53:34 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:53:34 --> URI Class Initialized
+INFO - 2019-03-10 05:53:34 --> Router Class Initialized
+INFO - 2019-03-10 05:53:34 --> Output Class Initialized
+INFO - 2019-03-10 05:53:34 --> Security Class Initialized
+DEBUG - 2019-03-10 05:53:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:53:34 --> Input Class Initialized
+INFO - 2019-03-10 05:53:34 --> Language Class Initialized
+INFO - 2019-03-10 05:53:34 --> Loader Class Initialized
+INFO - 2019-03-10 05:53:34 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:53:34 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:53:34 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:53:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:53:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:53:34 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:53:34 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:53:34 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:53:35 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:53:35 --> Final output sent to browser
+DEBUG - 2019-03-10 05:53:35 --> Total execution time: 0.1010
+INFO - 2019-03-10 05:53:43 --> Config Class Initialized
+INFO - 2019-03-10 05:53:43 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:53:43 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:53:43 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:53:43 --> URI Class Initialized
+INFO - 2019-03-10 05:53:43 --> Router Class Initialized
+INFO - 2019-03-10 05:53:43 --> Output Class Initialized
+INFO - 2019-03-10 05:53:43 --> Security Class Initialized
+DEBUG - 2019-03-10 05:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:53:43 --> Input Class Initialized
+INFO - 2019-03-10 05:53:43 --> Language Class Initialized
+INFO - 2019-03-10 05:53:43 --> Loader Class Initialized
+INFO - 2019-03-10 05:53:43 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:53:43 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:53:43 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:53:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:53:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:53:43 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:53:43 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:53:43 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:53:43 --> Final output sent to browser
+DEBUG - 2019-03-10 05:53:43 --> Total execution time: 0.1002
+INFO - 2019-03-10 05:53:48 --> Config Class Initialized
+INFO - 2019-03-10 05:53:48 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:53:48 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:53:48 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:53:48 --> URI Class Initialized
+INFO - 2019-03-10 05:53:48 --> Router Class Initialized
+INFO - 2019-03-10 05:53:48 --> Output Class Initialized
+INFO - 2019-03-10 05:53:48 --> Security Class Initialized
+DEBUG - 2019-03-10 05:53:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:53:48 --> Input Class Initialized
+INFO - 2019-03-10 05:53:48 --> Language Class Initialized
+INFO - 2019-03-10 05:53:48 --> Loader Class Initialized
+INFO - 2019-03-10 05:53:48 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:53:48 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:53:48 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:53:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:53:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:53:48 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:53:48 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:53:48 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:54:27 --> Config Class Initialized
+INFO - 2019-03-10 05:54:27 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:54:27 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:54:27 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:54:27 --> URI Class Initialized
+INFO - 2019-03-10 05:54:27 --> Router Class Initialized
+INFO - 2019-03-10 05:54:27 --> Output Class Initialized
+INFO - 2019-03-10 05:54:27 --> Security Class Initialized
+DEBUG - 2019-03-10 05:54:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:54:27 --> Input Class Initialized
+INFO - 2019-03-10 05:54:27 --> Language Class Initialized
+INFO - 2019-03-10 05:54:27 --> Loader Class Initialized
+INFO - 2019-03-10 05:54:27 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:54:27 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:54:27 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:54:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:54:27 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:54:27 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:54:27 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:54:27 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:54:27 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:54:27 --> Final output sent to browser
+DEBUG - 2019-03-10 05:54:27 --> Total execution time: 0.1215
+INFO - 2019-03-10 05:54:39 --> Config Class Initialized
+INFO - 2019-03-10 05:54:39 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:54:39 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:54:39 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:54:39 --> URI Class Initialized
+INFO - 2019-03-10 05:54:39 --> Router Class Initialized
+INFO - 2019-03-10 05:54:39 --> Output Class Initialized
+INFO - 2019-03-10 05:54:39 --> Security Class Initialized
+DEBUG - 2019-03-10 05:54:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:54:39 --> Input Class Initialized
+INFO - 2019-03-10 05:54:39 --> Language Class Initialized
+INFO - 2019-03-10 05:54:39 --> Loader Class Initialized
+INFO - 2019-03-10 05:54:39 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:54:39 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:54:39 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:54:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:54:39 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:54:39 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:54:39 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:54:39 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:54:39 --> Final output sent to browser
+DEBUG - 2019-03-10 05:54:39 --> Total execution time: 0.1048
+INFO - 2019-03-10 05:54:42 --> Config Class Initialized
+INFO - 2019-03-10 05:54:42 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:54:42 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:54:42 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:54:42 --> URI Class Initialized
+INFO - 2019-03-10 05:54:42 --> Router Class Initialized
+INFO - 2019-03-10 05:54:42 --> Output Class Initialized
+INFO - 2019-03-10 05:54:42 --> Security Class Initialized
+DEBUG - 2019-03-10 05:54:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:54:42 --> Input Class Initialized
+INFO - 2019-03-10 05:54:42 --> Language Class Initialized
+INFO - 2019-03-10 05:54:42 --> Loader Class Initialized
+INFO - 2019-03-10 05:54:42 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:54:42 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:54:42 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:54:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:54:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:54:43 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:54:43 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:54:43 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:10 --> Config Class Initialized
+INFO - 2019-03-10 05:58:10 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:10 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:10 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:10 --> URI Class Initialized
+INFO - 2019-03-10 05:58:10 --> Router Class Initialized
+INFO - 2019-03-10 05:58:10 --> Output Class Initialized
+INFO - 2019-03-10 05:58:10 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:10 --> Input Class Initialized
+INFO - 2019-03-10 05:58:10 --> Language Class Initialized
+INFO - 2019-03-10 05:58:10 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:10 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:10 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:10 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:10 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:10 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:10 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:10 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:58:10 --> Final output sent to browser
+DEBUG - 2019-03-10 05:58:10 --> Total execution time: 0.1106
+INFO - 2019-03-10 05:58:17 --> Config Class Initialized
+INFO - 2019-03-10 05:58:17 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:17 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:17 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:17 --> URI Class Initialized
+INFO - 2019-03-10 05:58:17 --> Router Class Initialized
+INFO - 2019-03-10 05:58:17 --> Output Class Initialized
+INFO - 2019-03-10 05:58:17 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:17 --> Input Class Initialized
+INFO - 2019-03-10 05:58:17 --> Language Class Initialized
+INFO - 2019-03-10 05:58:17 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:17 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:17 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:17 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:17 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:17 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:17 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:17 --> Final output sent to browser
+DEBUG - 2019-03-10 05:58:17 --> Total execution time: 0.1009
+INFO - 2019-03-10 05:58:20 --> Config Class Initialized
+INFO - 2019-03-10 05:58:20 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:20 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:20 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:20 --> URI Class Initialized
+INFO - 2019-03-10 05:58:20 --> Router Class Initialized
+INFO - 2019-03-10 05:58:20 --> Output Class Initialized
+INFO - 2019-03-10 05:58:20 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:20 --> Input Class Initialized
+INFO - 2019-03-10 05:58:20 --> Language Class Initialized
+INFO - 2019-03-10 05:58:20 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:20 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:20 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:20 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:20 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:20 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:20 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:20 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:25 --> Config Class Initialized
+INFO - 2019-03-10 05:58:25 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:25 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:25 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:25 --> URI Class Initialized
+INFO - 2019-03-10 05:58:25 --> Router Class Initialized
+INFO - 2019-03-10 05:58:25 --> Output Class Initialized
+INFO - 2019-03-10 05:58:25 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:25 --> Input Class Initialized
+INFO - 2019-03-10 05:58:25 --> Language Class Initialized
+INFO - 2019-03-10 05:58:25 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:25 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:25 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:25 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:25 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:25 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:25 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:25 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:58:25 --> Final output sent to browser
+DEBUG - 2019-03-10 05:58:25 --> Total execution time: 0.1105
+INFO - 2019-03-10 05:58:53 --> Config Class Initialized
+INFO - 2019-03-10 05:58:53 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:53 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:53 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:53 --> URI Class Initialized
+INFO - 2019-03-10 05:58:53 --> Router Class Initialized
+INFO - 2019-03-10 05:58:53 --> Output Class Initialized
+INFO - 2019-03-10 05:58:53 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:53 --> Input Class Initialized
+INFO - 2019-03-10 05:58:53 --> Language Class Initialized
+INFO - 2019-03-10 05:58:53 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:53 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:53 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:53 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:53 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:53 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:53 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:58:53 --> Final output sent to browser
+DEBUG - 2019-03-10 05:58:53 --> Total execution time: 0.1127
+INFO - 2019-03-10 05:58:56 --> Config Class Initialized
+INFO - 2019-03-10 05:58:56 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:58:56 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:58:56 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:58:56 --> URI Class Initialized
+INFO - 2019-03-10 05:58:56 --> Router Class Initialized
+INFO - 2019-03-10 05:58:56 --> Output Class Initialized
+INFO - 2019-03-10 05:58:56 --> Security Class Initialized
+DEBUG - 2019-03-10 05:58:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:58:56 --> Input Class Initialized
+INFO - 2019-03-10 05:58:56 --> Language Class Initialized
+INFO - 2019-03-10 05:58:56 --> Loader Class Initialized
+INFO - 2019-03-10 05:58:56 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:58:56 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:58:56 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:58:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:58:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:58:56 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:58:56 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:58:56 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:59:21 --> Config Class Initialized
+INFO - 2019-03-10 05:59:21 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:59:21 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:59:21 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:59:21 --> URI Class Initialized
+INFO - 2019-03-10 05:59:21 --> Router Class Initialized
+INFO - 2019-03-10 05:59:21 --> Output Class Initialized
+INFO - 2019-03-10 05:59:21 --> Security Class Initialized
+DEBUG - 2019-03-10 05:59:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:59:21 --> Input Class Initialized
+INFO - 2019-03-10 05:59:22 --> Language Class Initialized
+INFO - 2019-03-10 05:59:22 --> Loader Class Initialized
+INFO - 2019-03-10 05:59:22 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:59:22 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:59:22 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:59:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:59:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:59:22 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:59:22 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:59:22 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:59:22 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 05:59:22 --> Final output sent to browser
+DEBUG - 2019-03-10 05:59:22 --> Total execution time: 0.1274
+INFO - 2019-03-10 05:59:40 --> Config Class Initialized
+INFO - 2019-03-10 05:59:40 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:59:40 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:59:40 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:59:40 --> URI Class Initialized
+INFO - 2019-03-10 05:59:40 --> Router Class Initialized
+INFO - 2019-03-10 05:59:40 --> Output Class Initialized
+INFO - 2019-03-10 05:59:40 --> Security Class Initialized
+DEBUG - 2019-03-10 05:59:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:59:40 --> Input Class Initialized
+INFO - 2019-03-10 05:59:40 --> Language Class Initialized
+INFO - 2019-03-10 05:59:40 --> Loader Class Initialized
+INFO - 2019-03-10 05:59:40 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:59:40 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:59:40 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:59:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:59:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:59:40 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:59:40 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:59:40 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 05:59:40 --> Final output sent to browser
+DEBUG - 2019-03-10 05:59:40 --> Total execution time: 0.1108
+INFO - 2019-03-10 05:59:45 --> Config Class Initialized
+INFO - 2019-03-10 05:59:45 --> Hooks Class Initialized
+DEBUG - 2019-03-10 05:59:45 --> UTF-8 Support Enabled
+INFO - 2019-03-10 05:59:45 --> Utf8 Class Initialized
+INFO - 2019-03-10 05:59:45 --> URI Class Initialized
+INFO - 2019-03-10 05:59:45 --> Router Class Initialized
+INFO - 2019-03-10 05:59:45 --> Output Class Initialized
+INFO - 2019-03-10 05:59:45 --> Security Class Initialized
+DEBUG - 2019-03-10 05:59:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 05:59:45 --> Input Class Initialized
+INFO - 2019-03-10 05:59:45 --> Language Class Initialized
+INFO - 2019-03-10 05:59:45 --> Loader Class Initialized
+INFO - 2019-03-10 05:59:45 --> Helper loaded: url_helper
+INFO - 2019-03-10 05:59:45 --> Helper loaded: file_helper
+INFO - 2019-03-10 05:59:45 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 05:59:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 05:59:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 05:59:45 --> Controller Class Initialized
+DEBUG - 2019-03-10 05:59:45 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 05:59:45 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 05:59:50 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 419
+ERROR - 2019-03-10 05:59:51 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+INFO - 2019-03-10 06:00:23 --> Config Class Initialized
+INFO - 2019-03-10 06:00:23 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:00:23 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:00:23 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:00:23 --> URI Class Initialized
+INFO - 2019-03-10 06:00:23 --> Router Class Initialized
+INFO - 2019-03-10 06:00:23 --> Output Class Initialized
+INFO - 2019-03-10 06:00:23 --> Security Class Initialized
+DEBUG - 2019-03-10 06:00:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:00:23 --> Input Class Initialized
+INFO - 2019-03-10 06:00:23 --> Language Class Initialized
+INFO - 2019-03-10 06:00:23 --> Loader Class Initialized
+INFO - 2019-03-10 06:00:23 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:00:23 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:00:23 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:00:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:00:23 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:00:23 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:00:23 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:00:23 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:00:23 --> Severity: Notice --> Undefined index: api_list E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 253
+ERROR - 2019-03-10 06:00:23 --> Severity: Notice --> Undefined index: file_name E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 256
+INFO - 2019-03-10 06:00:23 --> Final output sent to browser
+DEBUG - 2019-03-10 06:00:23 --> Total execution time: 0.0957
+INFO - 2019-03-10 06:01:53 --> Config Class Initialized
+INFO - 2019-03-10 06:01:53 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:01:53 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:01:53 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:01:53 --> URI Class Initialized
+INFO - 2019-03-10 06:01:53 --> Router Class Initialized
+INFO - 2019-03-10 06:01:53 --> Output Class Initialized
+INFO - 2019-03-10 06:01:53 --> Security Class Initialized
+DEBUG - 2019-03-10 06:01:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:01:53 --> Input Class Initialized
+INFO - 2019-03-10 06:01:53 --> Language Class Initialized
+INFO - 2019-03-10 06:01:53 --> Loader Class Initialized
+INFO - 2019-03-10 06:01:53 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:01:53 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:01:53 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:01:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:01:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:01:53 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:01:53 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:01:53 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:01:53 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:01:53 --> Final output sent to browser
+DEBUG - 2019-03-10 06:01:53 --> Total execution time: 0.0956
+INFO - 2019-03-10 06:02:00 --> Config Class Initialized
+INFO - 2019-03-10 06:02:00 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:02:00 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:02:00 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:02:00 --> URI Class Initialized
+INFO - 2019-03-10 06:02:00 --> Router Class Initialized
+INFO - 2019-03-10 06:02:00 --> Output Class Initialized
+INFO - 2019-03-10 06:02:00 --> Security Class Initialized
+DEBUG - 2019-03-10 06:02:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:02:00 --> Input Class Initialized
+INFO - 2019-03-10 06:02:00 --> Language Class Initialized
+INFO - 2019-03-10 06:02:00 --> Loader Class Initialized
+INFO - 2019-03-10 06:02:00 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:02:00 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:02:00 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:02:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:02:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:02:00 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:02:00 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:02:00 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:02:00 --> Final output sent to browser
+DEBUG - 2019-03-10 06:02:00 --> Total execution time: 0.1024
+INFO - 2019-03-10 06:02:03 --> Config Class Initialized
+INFO - 2019-03-10 06:02:03 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:02:03 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:02:03 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:02:03 --> URI Class Initialized
+INFO - 2019-03-10 06:02:03 --> Router Class Initialized
+INFO - 2019-03-10 06:02:03 --> Output Class Initialized
+INFO - 2019-03-10 06:02:03 --> Security Class Initialized
+DEBUG - 2019-03-10 06:02:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:02:03 --> Input Class Initialized
+INFO - 2019-03-10 06:02:03 --> Language Class Initialized
+INFO - 2019-03-10 06:02:03 --> Loader Class Initialized
+INFO - 2019-03-10 06:02:03 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:02:03 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:02:03 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:02:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:02:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:02:03 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:02:03 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:02:03 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:02:07 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 419
+ERROR - 2019-03-10 06:02:07 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+INFO - 2019-03-10 06:02:50 --> Config Class Initialized
+INFO - 2019-03-10 06:02:50 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:02:50 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:02:50 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:02:50 --> URI Class Initialized
+INFO - 2019-03-10 06:02:50 --> Router Class Initialized
+INFO - 2019-03-10 06:02:50 --> Output Class Initialized
+INFO - 2019-03-10 06:02:50 --> Security Class Initialized
+DEBUG - 2019-03-10 06:02:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:02:50 --> Input Class Initialized
+INFO - 2019-03-10 06:02:50 --> Language Class Initialized
+INFO - 2019-03-10 06:02:50 --> Loader Class Initialized
+INFO - 2019-03-10 06:02:50 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:02:50 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:02:50 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:02:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:02:50 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:02:50 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:02:50 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:02:50 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:02:50 --> Final output sent to browser
+DEBUG - 2019-03-10 06:02:50 --> Total execution time: 0.1231
+INFO - 2019-03-10 06:02:53 --> Config Class Initialized
+INFO - 2019-03-10 06:02:53 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:02:53 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:02:53 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:02:53 --> URI Class Initialized
+INFO - 2019-03-10 06:02:53 --> Router Class Initialized
+INFO - 2019-03-10 06:02:53 --> Output Class Initialized
+INFO - 2019-03-10 06:02:53 --> Security Class Initialized
+DEBUG - 2019-03-10 06:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:02:53 --> Input Class Initialized
+INFO - 2019-03-10 06:02:53 --> Language Class Initialized
+INFO - 2019-03-10 06:02:53 --> Loader Class Initialized
+INFO - 2019-03-10 06:02:53 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:02:53 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:02:53 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:02:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:02:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:02:53 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:02:53 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:02:53 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:03:27 --> Config Class Initialized
+INFO - 2019-03-10 06:03:27 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:03:27 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:03:27 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:03:27 --> URI Class Initialized
+INFO - 2019-03-10 06:03:27 --> Router Class Initialized
+INFO - 2019-03-10 06:03:27 --> Output Class Initialized
+INFO - 2019-03-10 06:03:27 --> Security Class Initialized
+DEBUG - 2019-03-10 06:03:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:03:27 --> Input Class Initialized
+INFO - 2019-03-10 06:03:27 --> Language Class Initialized
+INFO - 2019-03-10 06:03:27 --> Loader Class Initialized
+INFO - 2019-03-10 06:03:27 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:03:27 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:03:27 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:03:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:03:27 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:03:27 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:03:27 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:03:27 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:03:27 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:03:27 --> Final output sent to browser
+DEBUG - 2019-03-10 06:03:27 --> Total execution time: 0.1228
+INFO - 2019-03-10 06:03:34 --> Config Class Initialized
+INFO - 2019-03-10 06:03:34 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:03:34 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:03:34 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:03:34 --> URI Class Initialized
+INFO - 2019-03-10 06:03:34 --> Router Class Initialized
+INFO - 2019-03-10 06:03:34 --> Output Class Initialized
+INFO - 2019-03-10 06:03:34 --> Security Class Initialized
+DEBUG - 2019-03-10 06:03:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:03:34 --> Input Class Initialized
+INFO - 2019-03-10 06:03:34 --> Language Class Initialized
+INFO - 2019-03-10 06:03:34 --> Loader Class Initialized
+INFO - 2019-03-10 06:03:34 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:03:34 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:03:34 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:03:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:03:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:03:34 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:03:34 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:03:34 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:03:34 --> Final output sent to browser
+DEBUG - 2019-03-10 06:03:34 --> Total execution time: 0.1039
+INFO - 2019-03-10 06:03:38 --> Config Class Initialized
+INFO - 2019-03-10 06:03:38 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:03:38 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:03:38 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:03:38 --> URI Class Initialized
+INFO - 2019-03-10 06:03:38 --> Router Class Initialized
+INFO - 2019-03-10 06:03:38 --> Output Class Initialized
+INFO - 2019-03-10 06:03:38 --> Security Class Initialized
+DEBUG - 2019-03-10 06:03:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:03:38 --> Input Class Initialized
+INFO - 2019-03-10 06:03:38 --> Language Class Initialized
+INFO - 2019-03-10 06:03:38 --> Loader Class Initialized
+INFO - 2019-03-10 06:03:38 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:03:38 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:03:38 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:03:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:03:38 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:03:38 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:03:38 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:03:38 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:03:52 --> Config Class Initialized
+INFO - 2019-03-10 06:03:52 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:03:52 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:03:52 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:03:52 --> URI Class Initialized
+INFO - 2019-03-10 06:03:52 --> Router Class Initialized
+INFO - 2019-03-10 06:03:52 --> Output Class Initialized
+INFO - 2019-03-10 06:03:52 --> Security Class Initialized
+DEBUG - 2019-03-10 06:03:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:03:52 --> Input Class Initialized
+INFO - 2019-03-10 06:03:52 --> Language Class Initialized
+INFO - 2019-03-10 06:03:52 --> Loader Class Initialized
+INFO - 2019-03-10 06:03:52 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:03:52 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:03:52 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:03:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:03:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:03:52 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:03:52 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:03:52 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:03:52 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:03:52 --> Final output sent to browser
+DEBUG - 2019-03-10 06:03:52 --> Total execution time: 0.1214
+INFO - 2019-03-10 06:04:11 --> Config Class Initialized
+INFO - 2019-03-10 06:04:11 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:04:11 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:04:11 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:04:11 --> URI Class Initialized
+INFO - 2019-03-10 06:04:11 --> Router Class Initialized
+INFO - 2019-03-10 06:04:11 --> Output Class Initialized
+INFO - 2019-03-10 06:04:11 --> Security Class Initialized
+DEBUG - 2019-03-10 06:04:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:04:11 --> Input Class Initialized
+INFO - 2019-03-10 06:04:11 --> Language Class Initialized
+INFO - 2019-03-10 06:04:11 --> Loader Class Initialized
+INFO - 2019-03-10 06:04:11 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:04:11 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:04:11 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:04:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:04:11 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:04:11 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:04:11 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:04:11 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:04:11 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:04:11 --> Final output sent to browser
+DEBUG - 2019-03-10 06:04:11 --> Total execution time: 0.1147
+INFO - 2019-03-10 06:04:18 --> Config Class Initialized
+INFO - 2019-03-10 06:04:18 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:04:18 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:04:18 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:04:18 --> URI Class Initialized
+INFO - 2019-03-10 06:04:18 --> Router Class Initialized
+INFO - 2019-03-10 06:04:18 --> Output Class Initialized
+INFO - 2019-03-10 06:04:18 --> Security Class Initialized
+DEBUG - 2019-03-10 06:04:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:04:18 --> Input Class Initialized
+INFO - 2019-03-10 06:04:18 --> Language Class Initialized
+INFO - 2019-03-10 06:04:18 --> Loader Class Initialized
+INFO - 2019-03-10 06:04:18 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:04:18 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:04:18 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:04:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:04:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:04:18 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:04:18 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:04:18 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:04:18 --> Final output sent to browser
+DEBUG - 2019-03-10 06:04:18 --> Total execution time: 0.1102
+INFO - 2019-03-10 06:04:22 --> Config Class Initialized
+INFO - 2019-03-10 06:04:22 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:04:22 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:04:22 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:04:22 --> URI Class Initialized
+INFO - 2019-03-10 06:04:22 --> Router Class Initialized
+INFO - 2019-03-10 06:04:22 --> Output Class Initialized
+INFO - 2019-03-10 06:04:22 --> Security Class Initialized
+DEBUG - 2019-03-10 06:04:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:04:22 --> Input Class Initialized
+INFO - 2019-03-10 06:04:22 --> Language Class Initialized
+INFO - 2019-03-10 06:04:22 --> Loader Class Initialized
+INFO - 2019-03-10 06:04:22 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:04:22 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:04:22 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:04:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:04:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:04:22 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:04:22 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:04:22 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:04:23 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 418
+ERROR - 2019-03-10 06:04:24 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+INFO - 2019-03-10 06:04:53 --> Config Class Initialized
+INFO - 2019-03-10 06:04:53 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:04:53 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:04:53 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:04:53 --> URI Class Initialized
+INFO - 2019-03-10 06:04:53 --> Router Class Initialized
+INFO - 2019-03-10 06:04:53 --> Output Class Initialized
+INFO - 2019-03-10 06:04:53 --> Security Class Initialized
+DEBUG - 2019-03-10 06:04:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:04:53 --> Input Class Initialized
+INFO - 2019-03-10 06:04:53 --> Language Class Initialized
+INFO - 2019-03-10 06:04:53 --> Loader Class Initialized
+INFO - 2019-03-10 06:04:53 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:04:53 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:04:53 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:04:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:04:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:04:53 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:04:53 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:04:53 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:04:53 --> Final output sent to browser
+DEBUG - 2019-03-10 06:04:53 --> Total execution time: 0.0995
+INFO - 2019-03-10 06:04:57 --> Config Class Initialized
+INFO - 2019-03-10 06:04:57 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:04:57 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:04:57 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:04:57 --> URI Class Initialized
+INFO - 2019-03-10 06:04:57 --> Router Class Initialized
+INFO - 2019-03-10 06:04:57 --> Output Class Initialized
+INFO - 2019-03-10 06:04:57 --> Security Class Initialized
+DEBUG - 2019-03-10 06:04:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:04:57 --> Input Class Initialized
+INFO - 2019-03-10 06:04:57 --> Language Class Initialized
+INFO - 2019-03-10 06:04:57 --> Loader Class Initialized
+INFO - 2019-03-10 06:04:57 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:04:57 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:04:57 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:04:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:04:57 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:04:57 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:04:57 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:04:57 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:09 --> Config Class Initialized
+INFO - 2019-03-10 06:05:09 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:09 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:09 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:09 --> URI Class Initialized
+INFO - 2019-03-10 06:05:09 --> Router Class Initialized
+INFO - 2019-03-10 06:05:09 --> Output Class Initialized
+INFO - 2019-03-10 06:05:09 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:09 --> Input Class Initialized
+INFO - 2019-03-10 06:05:09 --> Language Class Initialized
+INFO - 2019-03-10 06:05:09 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:09 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:09 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:09 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:09 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:09 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:09 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:09 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:05:09 --> Final output sent to browser
+DEBUG - 2019-03-10 06:05:09 --> Total execution time: 0.0946
+INFO - 2019-03-10 06:05:17 --> Config Class Initialized
+INFO - 2019-03-10 06:05:17 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:17 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:17 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:17 --> URI Class Initialized
+INFO - 2019-03-10 06:05:17 --> Router Class Initialized
+INFO - 2019-03-10 06:05:17 --> Output Class Initialized
+INFO - 2019-03-10 06:05:17 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:17 --> Input Class Initialized
+INFO - 2019-03-10 06:05:17 --> Language Class Initialized
+INFO - 2019-03-10 06:05:17 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:17 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:17 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:17 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:17 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:17 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:17 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:17 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:17 --> Final output sent to browser
+DEBUG - 2019-03-10 06:05:17 --> Total execution time: 0.0999
+INFO - 2019-03-10 06:05:21 --> Config Class Initialized
+INFO - 2019-03-10 06:05:21 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:21 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:21 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:21 --> URI Class Initialized
+INFO - 2019-03-10 06:05:21 --> Router Class Initialized
+INFO - 2019-03-10 06:05:21 --> Output Class Initialized
+INFO - 2019-03-10 06:05:21 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:21 --> Input Class Initialized
+INFO - 2019-03-10 06:05:21 --> Language Class Initialized
+INFO - 2019-03-10 06:05:21 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:21 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:21 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:21 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:21 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:21 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:21 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:41 --> Config Class Initialized
+INFO - 2019-03-10 06:05:41 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:41 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:41 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:41 --> URI Class Initialized
+INFO - 2019-03-10 06:05:41 --> Router Class Initialized
+INFO - 2019-03-10 06:05:41 --> Output Class Initialized
+INFO - 2019-03-10 06:05:41 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:41 --> Input Class Initialized
+INFO - 2019-03-10 06:05:41 --> Language Class Initialized
+INFO - 2019-03-10 06:05:41 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:41 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:41 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:41 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:41 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:41 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:41 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:41 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:41 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:05:41 --> Final output sent to browser
+DEBUG - 2019-03-10 06:05:41 --> Total execution time: 0.1440
+INFO - 2019-03-10 06:05:47 --> Config Class Initialized
+INFO - 2019-03-10 06:05:47 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:47 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:47 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:47 --> URI Class Initialized
+INFO - 2019-03-10 06:05:47 --> Router Class Initialized
+INFO - 2019-03-10 06:05:47 --> Output Class Initialized
+INFO - 2019-03-10 06:05:47 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:47 --> Input Class Initialized
+INFO - 2019-03-10 06:05:47 --> Language Class Initialized
+INFO - 2019-03-10 06:05:47 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:47 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:47 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:47 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:47 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:47 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:47 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:05:47 --> Final output sent to browser
+DEBUG - 2019-03-10 06:05:47 --> Total execution time: 0.1076
+INFO - 2019-03-10 06:05:49 --> Config Class Initialized
+INFO - 2019-03-10 06:05:49 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:05:49 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:05:49 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:05:49 --> URI Class Initialized
+INFO - 2019-03-10 06:05:49 --> Router Class Initialized
+INFO - 2019-03-10 06:05:49 --> Output Class Initialized
+INFO - 2019-03-10 06:05:49 --> Security Class Initialized
+DEBUG - 2019-03-10 06:05:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:05:49 --> Input Class Initialized
+INFO - 2019-03-10 06:05:49 --> Language Class Initialized
+INFO - 2019-03-10 06:05:49 --> Loader Class Initialized
+INFO - 2019-03-10 06:05:49 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:05:49 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:05:49 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:05:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:05:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:05:49 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:05:49 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:05:49 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:05:53 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 420
+ERROR - 2019-03-10 06:05:53 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258
+INFO - 2019-03-10 06:06:36 --> Config Class Initialized
+INFO - 2019-03-10 06:06:36 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:06:36 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:06:36 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:06:36 --> URI Class Initialized
+INFO - 2019-03-10 06:06:36 --> Router Class Initialized
+INFO - 2019-03-10 06:06:36 --> Output Class Initialized
+INFO - 2019-03-10 06:06:36 --> Security Class Initialized
+DEBUG - 2019-03-10 06:06:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:06:36 --> Input Class Initialized
+INFO - 2019-03-10 06:06:36 --> Language Class Initialized
+INFO - 2019-03-10 06:06:36 --> Loader Class Initialized
+INFO - 2019-03-10 06:06:36 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:06:36 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:06:36 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:06:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:06:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:06:36 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:06:36 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:06:36 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:06:37 --> Final output sent to browser
+DEBUG - 2019-03-10 06:06:37 --> Total execution time: 0.1258
+INFO - 2019-03-10 06:06:40 --> Config Class Initialized
+INFO - 2019-03-10 06:06:40 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:06:40 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:06:40 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:06:40 --> URI Class Initialized
+INFO - 2019-03-10 06:06:40 --> Router Class Initialized
+INFO - 2019-03-10 06:06:40 --> Output Class Initialized
+INFO - 2019-03-10 06:06:40 --> Security Class Initialized
+DEBUG - 2019-03-10 06:06:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:06:40 --> Input Class Initialized
+INFO - 2019-03-10 06:06:40 --> Language Class Initialized
+INFO - 2019-03-10 06:06:40 --> Loader Class Initialized
+INFO - 2019-03-10 06:06:40 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:06:40 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:06:40 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:06:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:06:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:06:40 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:06:40 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:06:40 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:06:58 --> Config Class Initialized
+INFO - 2019-03-10 06:06:58 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:06:58 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:06:58 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:06:58 --> URI Class Initialized
+INFO - 2019-03-10 06:06:58 --> Router Class Initialized
+INFO - 2019-03-10 06:06:58 --> Output Class Initialized
+INFO - 2019-03-10 06:06:58 --> Security Class Initialized
+DEBUG - 2019-03-10 06:06:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:06:58 --> Input Class Initialized
+INFO - 2019-03-10 06:06:58 --> Language Class Initialized
+INFO - 2019-03-10 06:06:58 --> Loader Class Initialized
+INFO - 2019-03-10 06:06:58 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:06:58 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:06:58 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:06:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:06:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:06:58 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:06:58 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:06:58 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:06:58 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:06:58 --> Final output sent to browser
+DEBUG - 2019-03-10 06:06:58 --> Total execution time: 0.1310
+INFO - 2019-03-10 06:07:04 --> Config Class Initialized
+INFO - 2019-03-10 06:07:04 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:07:04 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:07:04 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:07:04 --> URI Class Initialized
+INFO - 2019-03-10 06:07:04 --> Router Class Initialized
+INFO - 2019-03-10 06:07:04 --> Output Class Initialized
+INFO - 2019-03-10 06:07:04 --> Security Class Initialized
+DEBUG - 2019-03-10 06:07:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:07:04 --> Input Class Initialized
+INFO - 2019-03-10 06:07:04 --> Language Class Initialized
+INFO - 2019-03-10 06:07:04 --> Loader Class Initialized
+INFO - 2019-03-10 06:07:04 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:07:04 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:07:04 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:07:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:07:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:07:04 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:07:04 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:07:04 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:07:04 --> Final output sent to browser
+DEBUG - 2019-03-10 06:07:04 --> Total execution time: 0.1077
+INFO - 2019-03-10 06:07:06 --> Config Class Initialized
+INFO - 2019-03-10 06:07:06 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:07:06 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:07:06 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:07:06 --> URI Class Initialized
+INFO - 2019-03-10 06:07:06 --> Router Class Initialized
+INFO - 2019-03-10 06:07:06 --> Output Class Initialized
+INFO - 2019-03-10 06:07:06 --> Security Class Initialized
+DEBUG - 2019-03-10 06:07:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:07:06 --> Input Class Initialized
+INFO - 2019-03-10 06:07:06 --> Language Class Initialized
+INFO - 2019-03-10 06:07:06 --> Loader Class Initialized
+INFO - 2019-03-10 06:07:06 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:07:06 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:07:06 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:07:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:07:06 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:07:06 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:07:06 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:07:07 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:08:46 --> Config Class Initialized
+INFO - 2019-03-10 06:08:46 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:08:46 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:08:46 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:08:46 --> URI Class Initialized
+INFO - 2019-03-10 06:08:46 --> Router Class Initialized
+INFO - 2019-03-10 06:08:46 --> Output Class Initialized
+INFO - 2019-03-10 06:08:46 --> Security Class Initialized
+DEBUG - 2019-03-10 06:08:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:08:46 --> Input Class Initialized
+INFO - 2019-03-10 06:08:46 --> Language Class Initialized
+INFO - 2019-03-10 06:08:46 --> Loader Class Initialized
+INFO - 2019-03-10 06:08:46 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:08:46 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:08:46 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:08:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:08:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:08:47 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:08:47 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:08:47 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:08:47 --> Final output sent to browser
+DEBUG - 2019-03-10 06:08:47 --> Total execution time: 0.1044
+INFO - 2019-03-10 06:08:49 --> Config Class Initialized
+INFO - 2019-03-10 06:08:49 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:08:49 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:08:49 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:08:49 --> URI Class Initialized
+INFO - 2019-03-10 06:08:49 --> Router Class Initialized
+INFO - 2019-03-10 06:08:49 --> Output Class Initialized
+INFO - 2019-03-10 06:08:49 --> Security Class Initialized
+DEBUG - 2019-03-10 06:08:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:08:49 --> Input Class Initialized
+INFO - 2019-03-10 06:08:49 --> Language Class Initialized
+INFO - 2019-03-10 06:08:49 --> Loader Class Initialized
+INFO - 2019-03-10 06:08:49 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:08:49 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:08:49 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:08:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:08:49 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:08:49 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:08:49 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:08:49 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:09:37 --> Config Class Initialized
+INFO - 2019-03-10 06:09:37 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:09:37 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:09:37 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:09:37 --> URI Class Initialized
+INFO - 2019-03-10 06:09:37 --> Router Class Initialized
+INFO - 2019-03-10 06:09:37 --> Output Class Initialized
+INFO - 2019-03-10 06:09:37 --> Security Class Initialized
+DEBUG - 2019-03-10 06:09:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:09:37 --> Input Class Initialized
+INFO - 2019-03-10 06:09:37 --> Language Class Initialized
+INFO - 2019-03-10 06:09:37 --> Loader Class Initialized
+INFO - 2019-03-10 06:09:37 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:09:37 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:09:37 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:09:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:09:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:09:37 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:09:37 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:09:37 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:09:37 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:09:37 --> Final output sent to browser
+DEBUG - 2019-03-10 06:09:37 --> Total execution time: 0.1032
+INFO - 2019-03-10 06:09:43 --> Config Class Initialized
+INFO - 2019-03-10 06:09:43 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:09:43 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:09:43 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:09:43 --> URI Class Initialized
+INFO - 2019-03-10 06:09:43 --> Router Class Initialized
+INFO - 2019-03-10 06:09:43 --> Output Class Initialized
+INFO - 2019-03-10 06:09:43 --> Security Class Initialized
+DEBUG - 2019-03-10 06:09:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:09:43 --> Input Class Initialized
+INFO - 2019-03-10 06:09:43 --> Language Class Initialized
+INFO - 2019-03-10 06:09:43 --> Loader Class Initialized
+INFO - 2019-03-10 06:09:43 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:09:43 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:09:43 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:09:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:09:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:09:43 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:09:43 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:09:43 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:09:43 --> Final output sent to browser
+DEBUG - 2019-03-10 06:09:43 --> Total execution time: 0.0996
+INFO - 2019-03-10 06:09:46 --> Config Class Initialized
+INFO - 2019-03-10 06:09:46 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:09:46 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:09:46 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:09:46 --> URI Class Initialized
+INFO - 2019-03-10 06:09:46 --> Router Class Initialized
+INFO - 2019-03-10 06:09:46 --> Output Class Initialized
+INFO - 2019-03-10 06:09:46 --> Security Class Initialized
+DEBUG - 2019-03-10 06:09:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:09:46 --> Input Class Initialized
+INFO - 2019-03-10 06:09:46 --> Language Class Initialized
+INFO - 2019-03-10 06:09:46 --> Loader Class Initialized
+INFO - 2019-03-10 06:09:46 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:09:46 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:09:46 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:09:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:09:46 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:09:46 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:09:46 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:09:46 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:09:48 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 418
+INFO - 2019-03-10 06:10:09 --> Config Class Initialized
+INFO - 2019-03-10 06:10:09 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:10:09 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:10:09 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:10:09 --> URI Class Initialized
+INFO - 2019-03-10 06:10:09 --> Router Class Initialized
+INFO - 2019-03-10 06:10:09 --> Output Class Initialized
+INFO - 2019-03-10 06:10:09 --> Security Class Initialized
+DEBUG - 2019-03-10 06:10:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:10:09 --> Input Class Initialized
+INFO - 2019-03-10 06:10:10 --> Language Class Initialized
+INFO - 2019-03-10 06:10:10 --> Loader Class Initialized
+INFO - 2019-03-10 06:10:10 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:10:10 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:10:10 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:10:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:10:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:10:10 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:10:10 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:10:10 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:10:10 --> Final output sent to browser
+DEBUG - 2019-03-10 06:10:10 --> Total execution time: 0.1055
+INFO - 2019-03-10 06:10:14 --> Config Class Initialized
+INFO - 2019-03-10 06:10:14 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:10:14 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:10:14 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:10:14 --> URI Class Initialized
+INFO - 2019-03-10 06:10:14 --> Router Class Initialized
+INFO - 2019-03-10 06:10:14 --> Output Class Initialized
+INFO - 2019-03-10 06:10:14 --> Security Class Initialized
+DEBUG - 2019-03-10 06:10:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:10:14 --> Input Class Initialized
+INFO - 2019-03-10 06:10:14 --> Language Class Initialized
+INFO - 2019-03-10 06:10:14 --> Loader Class Initialized
+INFO - 2019-03-10 06:10:14 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:10:14 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:10:14 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:10:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:10:14 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:10:14 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:10:14 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:10:14 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:10:24 --> Config Class Initialized
+INFO - 2019-03-10 06:10:24 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:10:24 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:10:24 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:10:24 --> URI Class Initialized
+INFO - 2019-03-10 06:10:24 --> Router Class Initialized
+INFO - 2019-03-10 06:10:24 --> Output Class Initialized
+INFO - 2019-03-10 06:10:24 --> Security Class Initialized
+DEBUG - 2019-03-10 06:10:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:10:24 --> Input Class Initialized
+INFO - 2019-03-10 06:10:24 --> Language Class Initialized
+INFO - 2019-03-10 06:10:24 --> Loader Class Initialized
+INFO - 2019-03-10 06:10:24 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:10:24 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:10:24 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:10:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:10:24 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:10:24 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:10:24 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:10:24 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:10:24 --> Final output sent to browser
+DEBUG - 2019-03-10 06:10:24 --> Total execution time: 0.1150
+INFO - 2019-03-10 06:10:28 --> Config Class Initialized
+INFO - 2019-03-10 06:10:28 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:10:28 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:10:28 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:10:28 --> URI Class Initialized
+INFO - 2019-03-10 06:10:28 --> Router Class Initialized
+INFO - 2019-03-10 06:10:28 --> Output Class Initialized
+INFO - 2019-03-10 06:10:28 --> Security Class Initialized
+DEBUG - 2019-03-10 06:10:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:10:28 --> Input Class Initialized
+INFO - 2019-03-10 06:10:28 --> Language Class Initialized
+INFO - 2019-03-10 06:10:28 --> Loader Class Initialized
+INFO - 2019-03-10 06:10:28 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:10:28 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:10:28 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:10:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:10:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:10:28 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:10:28 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:10:28 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:11:08 --> Config Class Initialized
+INFO - 2019-03-10 06:11:08 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:11:08 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:11:08 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:11:08 --> URI Class Initialized
+INFO - 2019-03-10 06:11:08 --> Router Class Initialized
+INFO - 2019-03-10 06:11:08 --> Output Class Initialized
+INFO - 2019-03-10 06:11:08 --> Security Class Initialized
+DEBUG - 2019-03-10 06:11:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:11:08 --> Input Class Initialized
+INFO - 2019-03-10 06:11:08 --> Language Class Initialized
+INFO - 2019-03-10 06:11:08 --> Loader Class Initialized
+INFO - 2019-03-10 06:11:08 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:11:08 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:11:08 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:11:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:11:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:11:08 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:11:08 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:11:08 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:11:08 --> Final output sent to browser
+DEBUG - 2019-03-10 06:11:08 --> Total execution time: 0.1271
+INFO - 2019-03-10 06:11:15 --> Config Class Initialized
+INFO - 2019-03-10 06:11:15 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:11:15 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:11:15 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:11:15 --> URI Class Initialized
+INFO - 2019-03-10 06:11:15 --> Router Class Initialized
+INFO - 2019-03-10 06:11:15 --> Output Class Initialized
+INFO - 2019-03-10 06:11:15 --> Security Class Initialized
+DEBUG - 2019-03-10 06:11:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:11:15 --> Input Class Initialized
+INFO - 2019-03-10 06:11:15 --> Language Class Initialized
+INFO - 2019-03-10 06:11:15 --> Loader Class Initialized
+INFO - 2019-03-10 06:11:15 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:11:15 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:11:15 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:11:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:11:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:11:15 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:11:15 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:11:15 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:11:17 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 418
+INFO - 2019-03-10 06:11:53 --> Config Class Initialized
+INFO - 2019-03-10 06:11:53 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:11:53 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:11:53 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:11:53 --> URI Class Initialized
+INFO - 2019-03-10 06:11:53 --> Router Class Initialized
+INFO - 2019-03-10 06:11:53 --> Output Class Initialized
+INFO - 2019-03-10 06:11:53 --> Security Class Initialized
+DEBUG - 2019-03-10 06:11:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:11:53 --> Input Class Initialized
+INFO - 2019-03-10 06:11:53 --> Language Class Initialized
+INFO - 2019-03-10 06:11:53 --> Loader Class Initialized
+INFO - 2019-03-10 06:11:53 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:11:53 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:11:53 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:11:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:11:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:11:53 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:11:53 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:11:53 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:11:53 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:11:53 --> Final output sent to browser
+DEBUG - 2019-03-10 06:11:53 --> Total execution time: 0.0983
+INFO - 2019-03-10 06:11:59 --> Config Class Initialized
+INFO - 2019-03-10 06:11:59 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:11:59 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:11:59 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:11:59 --> URI Class Initialized
+INFO - 2019-03-10 06:11:59 --> Router Class Initialized
+INFO - 2019-03-10 06:11:59 --> Output Class Initialized
+INFO - 2019-03-10 06:11:59 --> Security Class Initialized
+DEBUG - 2019-03-10 06:11:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:11:59 --> Input Class Initialized
+INFO - 2019-03-10 06:11:59 --> Language Class Initialized
+INFO - 2019-03-10 06:11:59 --> Loader Class Initialized
+INFO - 2019-03-10 06:11:59 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:11:59 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:11:59 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:11:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:11:59 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:11:59 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:11:59 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:11:59 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:11:59 --> Final output sent to browser
+DEBUG - 2019-03-10 06:11:59 --> Total execution time: 0.1310
+INFO - 2019-03-10 06:12:01 --> Config Class Initialized
+INFO - 2019-03-10 06:12:01 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:12:01 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:12:01 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:12:01 --> URI Class Initialized
+INFO - 2019-03-10 06:12:01 --> Router Class Initialized
+INFO - 2019-03-10 06:12:01 --> Output Class Initialized
+INFO - 2019-03-10 06:12:01 --> Security Class Initialized
+DEBUG - 2019-03-10 06:12:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:12:01 --> Input Class Initialized
+INFO - 2019-03-10 06:12:01 --> Language Class Initialized
+INFO - 2019-03-10 06:12:01 --> Loader Class Initialized
+INFO - 2019-03-10 06:12:01 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:12:01 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:12:01 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:12:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:12:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:12:01 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:12:01 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:12:01 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:12:31 --> Config Class Initialized
+INFO - 2019-03-10 06:12:31 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:12:31 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:12:31 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:12:31 --> URI Class Initialized
+INFO - 2019-03-10 06:12:31 --> Router Class Initialized
+INFO - 2019-03-10 06:12:31 --> Output Class Initialized
+INFO - 2019-03-10 06:12:31 --> Security Class Initialized
+DEBUG - 2019-03-10 06:12:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:12:31 --> Input Class Initialized
+INFO - 2019-03-10 06:12:31 --> Language Class Initialized
+INFO - 2019-03-10 06:12:31 --> Loader Class Initialized
+INFO - 2019-03-10 06:12:31 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:12:31 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:12:31 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:12:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:12:31 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:12:31 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:12:31 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:12:31 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:12:31 --> Final output sent to browser
+DEBUG - 2019-03-10 06:12:31 --> Total execution time: 0.1040
+INFO - 2019-03-10 06:12:37 --> Config Class Initialized
+INFO - 2019-03-10 06:12:37 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:12:37 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:12:37 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:12:37 --> URI Class Initialized
+INFO - 2019-03-10 06:12:37 --> Router Class Initialized
+INFO - 2019-03-10 06:12:37 --> Output Class Initialized
+INFO - 2019-03-10 06:12:37 --> Security Class Initialized
+DEBUG - 2019-03-10 06:12:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:12:37 --> Input Class Initialized
+INFO - 2019-03-10 06:12:37 --> Language Class Initialized
+INFO - 2019-03-10 06:12:37 --> Loader Class Initialized
+INFO - 2019-03-10 06:12:37 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:12:37 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:12:37 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:12:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:12:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:12:37 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:12:37 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:12:37 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:23:02 --> Config Class Initialized
+INFO - 2019-03-10 06:23:02 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:23:02 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:23:02 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:23:02 --> URI Class Initialized
+INFO - 2019-03-10 06:23:02 --> Router Class Initialized
+INFO - 2019-03-10 06:23:02 --> Output Class Initialized
+INFO - 2019-03-10 06:23:02 --> Security Class Initialized
+DEBUG - 2019-03-10 06:23:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:23:02 --> Input Class Initialized
+INFO - 2019-03-10 06:23:02 --> Language Class Initialized
+INFO - 2019-03-10 06:23:02 --> Loader Class Initialized
+INFO - 2019-03-10 06:23:02 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:23:02 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:23:02 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:23:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:23:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:23:02 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:23:02 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:23:02 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:23:03 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:23:03 --> Final output sent to browser
+DEBUG - 2019-03-10 06:23:03 --> Total execution time: 0.4115
+INFO - 2019-03-10 06:23:52 --> Config Class Initialized
+INFO - 2019-03-10 06:23:52 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:23:52 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:23:52 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:23:52 --> URI Class Initialized
+INFO - 2019-03-10 06:23:52 --> Router Class Initialized
+INFO - 2019-03-10 06:23:52 --> Output Class Initialized
+INFO - 2019-03-10 06:23:52 --> Security Class Initialized
+DEBUG - 2019-03-10 06:23:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:23:52 --> Input Class Initialized
+INFO - 2019-03-10 06:23:52 --> Language Class Initialized
+INFO - 2019-03-10 06:23:52 --> Loader Class Initialized
+INFO - 2019-03-10 06:23:52 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:23:52 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:23:52 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:23:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:23:52 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:23:52 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:23:52 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:23:52 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:23:52 --> Final output sent to browser
+DEBUG - 2019-03-10 06:23:52 --> Total execution time: 0.1692
+INFO - 2019-03-10 06:24:20 --> Config Class Initialized
+INFO - 2019-03-10 06:24:20 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:24:20 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:24:20 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:24:20 --> URI Class Initialized
+INFO - 2019-03-10 06:24:20 --> Router Class Initialized
+INFO - 2019-03-10 06:24:20 --> Output Class Initialized
+INFO - 2019-03-10 06:24:20 --> Security Class Initialized
+DEBUG - 2019-03-10 06:24:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:24:20 --> Input Class Initialized
+INFO - 2019-03-10 06:24:20 --> Language Class Initialized
+INFO - 2019-03-10 06:24:20 --> Loader Class Initialized
+INFO - 2019-03-10 06:24:20 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:24:20 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:24:20 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:24:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:24:20 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:24:20 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:24:20 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:24:20 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:24:20 --> File loaded: E:\xampp\htdocs\form_project\application\views\index.php
+INFO - 2019-03-10 06:24:20 --> Final output sent to browser
+DEBUG - 2019-03-10 06:24:20 --> Total execution time: 0.1811
+INFO - 2019-03-10 06:24:28 --> Config Class Initialized
+INFO - 2019-03-10 06:24:28 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:24:28 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:24:28 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:24:28 --> URI Class Initialized
+INFO - 2019-03-10 06:24:28 --> Router Class Initialized
+INFO - 2019-03-10 06:24:28 --> Output Class Initialized
+INFO - 2019-03-10 06:24:28 --> Security Class Initialized
+DEBUG - 2019-03-10 06:24:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:24:28 --> Input Class Initialized
+INFO - 2019-03-10 06:24:28 --> Language Class Initialized
+INFO - 2019-03-10 06:24:28 --> Loader Class Initialized
+INFO - 2019-03-10 06:24:28 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:24:28 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:24:28 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:24:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:24:28 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:24:28 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:24:28 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:24:28 --> Model "Mapping_model" initialized
+INFO - 2019-03-10 06:24:28 --> Final output sent to browser
+DEBUG - 2019-03-10 06:24:28 --> Total execution time: 0.0935
+INFO - 2019-03-10 06:24:33 --> Config Class Initialized
+INFO - 2019-03-10 06:24:33 --> Hooks Class Initialized
+DEBUG - 2019-03-10 06:24:33 --> UTF-8 Support Enabled
+INFO - 2019-03-10 06:24:33 --> Utf8 Class Initialized
+INFO - 2019-03-10 06:24:33 --> URI Class Initialized
+INFO - 2019-03-10 06:24:33 --> Router Class Initialized
+INFO - 2019-03-10 06:24:33 --> Output Class Initialized
+INFO - 2019-03-10 06:24:33 --> Security Class Initialized
+DEBUG - 2019-03-10 06:24:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-10 06:24:33 --> Input Class Initialized
+INFO - 2019-03-10 06:24:33 --> Language Class Initialized
+INFO - 2019-03-10 06:24:33 --> Loader Class Initialized
+INFO - 2019-03-10 06:24:33 --> Helper loaded: url_helper
+INFO - 2019-03-10 06:24:33 --> Helper loaded: file_helper
+INFO - 2019-03-10 06:24:33 --> Database Driver Class Initialized
+DEBUG - 2019-03-10 06:24:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-10 06:24:33 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-10 06:24:33 --> Controller Class Initialized
+DEBUG - 2019-03-10 06:24:33 --> Config file loaded: E:\xampp\htdocs\form_project\application\config/custom_db.php
+INFO - 2019-03-10 06:24:33 --> Model "Mapping_model" initialized
+ERROR - 2019-03-10 06:24:37 --> Severity: Notice --> Undefined offset: 0 E:\xampp\htdocs\form_project\application\controllers\UploadManager.php 418
+ERROR - 2019-03-10 06:24:40 --> Severity: error --> Exception: Error executing MySQL query: INSERT INTO sales_regions_updated (`f_field`,`d_field`) VALUES ('state_code','r_name'). MySQL error :  E:\xampp\htdocs\form_project\application\libraries\Mysql.php 258

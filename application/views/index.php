@@ -333,6 +333,7 @@
             data: data,
             dataType: "json",
             success: function (res) {
+                alert('sss');
                exit_loader();
                 if (res == 'success') {
                     dispSuccessAlarm("File uploaded successfully");
