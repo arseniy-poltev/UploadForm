@@ -2,7 +2,7 @@
 
 class Mapping_model extends CI_Model
 {
-	public $table_name = "map_table";
+	public $table_name = "field_mapping_table";
 
 
 	public function get_count($sql){
