@@ -302,6 +302,11 @@ class UploadManager extends CI_Controller
             }
 
 
+            $start_num = $_POST['start_num'];
+            $end_num = $_POST['end_num'];
+            $array_data = $_POST['array_data'];
+            $array_fields = $_POST['array_fields'];
+
             /*
               Get map table data
             */

@@ -46,6 +46,9 @@
             <div class="alert alert-success" role="alert" id="success_alarm" style="display: none">
                 File upload finished successfully!
             </div>
+            <div class="alert alert-warning" role="alert" id="error_alarm" style="display: none">
+                Error!
+            </div>
             <h5 class="card-title">Start Uploading</h5>
             <form action="/action_page.php" id="upload_form">
 
@@ -53,6 +56,21 @@
                     <label for="upload_file" class="mr-sm-4">Select File:</label>
                     <input type="file" class="form-control mb-2 mr-sm-8" id="upload_file" name="upload_file">
                 </div>
+                <div class="container row_information_panel" style="display: none;">
+                    <div class="form-group form-inline">
+                        <label for="upload_file" class="mr-sm-4">Total Rows:</label>
+                        <label class="mr-sm-4 t_rows"></label>
+
+                    </div>
+                    <div class="form-group form-inline">
+                        <label class="mr-sm-4 ">Start Row Number: </label>
+                        <input type="number" class="form-control mb-2 mr-sm-8 start_num" min="1" name="start_num">
+
+                        <label class="mr-sm-4 ml-5 ">End Row Number: </label>
+                        <input type="number" class="form-control mb-2 mr-sm-8 end_num" min="1" id="upload_file" name="end_num">
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <label for="table_list">Select table</label>
                     <select class="form-control mb-2 mr-sm-5" name="table_selector" id="table_selector">
@@ -201,17 +219,33 @@
         $('#dialog_modal').modal('hide');
     }
 
-    $('.btn_import').on('click', function () {
-        // file_selector = $('#upload_file');
-        //
-        // file_selector.parse({
-        // 	complete: function(results) {
-        // 		console.log(results);
-        // 	}
-        // });
-        // return;
-        //
+    var array_data;
+    var array_fields;
+    function handleFileSelect(evt) {
+        var file = evt.target.files[0];
 
+        Papa.parse(file, {
+            header: true,
+            dynamicTyping: true,
+            complete: function(results) {
+                console.log(results);
+                array_data = results.data;
+                array_fields = results.meta.fields;
+                console.log(array_fields);
+                $('.row_information_panel').css('display','block');
+                $('.row_information_panel').find('.t_rows').html(parseInt(array_data.length)-1);
+                $('.row_information_panel').find('.start_num').val(1);
+                $('.row_information_panel').find('.end_num').val(parseInt(array_data.length)-1);
+            }
+        });
+    }
+
+    $(document).ready(function(){
+        $("#upload_file").change(handleFileSelect);
+    });
+
+    $('.btn_import').on('click', function () {
+        $('#error_alarm').css('display', 'none');
 
         hideSuccessAlart();
         formTag = $('#upload_form');
@@ -231,15 +265,10 @@
         if (extension === 'csv' || extension === 'xls' || extension === 'xlsx' || extension === 'json') {
             data.append('file_name', filename);
             getApiList()
-            // loader();
-            // $('.btn_load').css('display', 'block');
-            // $('.btn_import').css('display', 'none');
-
         } else {
             disp_alert("Alert!", "Please select the correct file.");
         }
-
-    })
+    });
 
 
     /* Get api list and Display in the POPup modal */
@@ -274,12 +303,23 @@
 
     $('#submit_api').on('click', function () {
 
+        start_num = $('.start_num').val();
+        end_num = $('.end_num').val();
+        
+        if (parseInt(start_num) > parseInt(end_num) || parseInt(start_num) < 1 || parseInt(end_num) > array_data.length-1 || array_data.length < 1){
+            $('#error_alarm').css('display', 'block');
+            $('#error_alarm').html('Please select correct start and end values.');
+            return;
+        }
+        
         api_list = [];
         api_data = $('#api_form').serializeArray();
         api_data.forEach(function (val) {
             api_list.push(val.name);
         });
         data.append('api_list', api_list);
+        data.append('array_data', array_data);
+        data.append('array_fields', array_fields);
         $('#api_modal').modal('hide');
 
         loader();
@@ -299,6 +339,7 @@
                 }
             },
             error: function () {
+                alert("ffffff");
                 exit_loader();
             }
         })
