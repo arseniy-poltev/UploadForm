@@ -1,8 +1,8 @@
 <?php if(!defined('BASEPATH')) exit('No direct script access allowed');
 
-class customer_model extends CI_Model
+class sales_region_model extends CI_Model
 {
-    protected $table = 'm_customers';
+    protected $table = 'm_sales_regions';
 
     public function get_count($sql){
         $db_2 = $this->load->database('default_2_transform_data', TRUE);
@@ -38,7 +38,8 @@ class customer_model extends CI_Model
         $db_2 = $this->load->database('default_2_transform_data', TRUE);
 
         $db_2->insert($this->table, $data);
-        return true;
+        $insert_id = $db_2->insert_id();
+        return $insert_id;
     }
 
     function update($id, $data)
@@ -60,15 +61,16 @@ class customer_model extends CI_Model
 
     function Insert_or_update($data) {
         $db_2 = $this->load->database('default_2_transform_data', TRUE);
-        $sql = "select * from " . $this->table . " where c_name like " . "'%" . $data['c_name'] . "%'";
+        $sql = "select * from " . $this->table . " where r_name like " . "'%" . $data['r_name'] . "%'";
         $query = $db_2->query($sql);
         $result = $query->result_array();
 
         if (count($result) > 0) {
+            $id = $result[0]['id'];
             $this->update($result[0]['id'], $data);
         } else {
-            $this->save($data);
+            $id =$this->save($data);
         }
-        return true;
+        return $id;
     }
 }

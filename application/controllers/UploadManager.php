@@ -237,7 +237,6 @@ class UploadManager extends CI_Controller
         return $json_api;
     }
 
-
     public function uploadFile()
     {
         $this->load->library('Mysql');
@@ -379,6 +378,7 @@ class UploadManager extends CI_Controller
                             $r_state = trim($array_data[$i][$r_state_key]);
                             $r_cluster_1 = trim($array_data[$i][$r_cluster1_key]);
 
+
                             $population_json = array();
                             /* Population Projection (ID = 18)  */
                             if (in_array('18', $api)) {
@@ -403,7 +403,6 @@ class UploadManager extends CI_Controller
                                 $population_json["current_population2020"] = $current_population2020;
                                 $population_json["current_population2019"] = $current_population2019;
                             }
-
 
 
                             /*Employments (ID=53)*/

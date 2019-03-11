@@ -12,7 +12,7 @@
 			<div class="alert alert-warning" role="alert" id="error_alarm" style="display: none">
 				Error!
 			</div>
-			<h4 class="card-title">Vendor Master Records</h4>
+			<h4 class="card-title">Customer Master Records</h4>
 			<hr>
 			<form action="/action_page.php" id="upload_form">
 
@@ -155,7 +155,7 @@
 			data.append('file_name', filename);
 			loader();
 			$.ajax({
-				url: "<?php echo base_url(); ?>FileManager/upload_vendor_master",
+				url: "<?php echo base_url(); ?>FileManager/upload_customer_master",
 				type: "post",
 				enctype: 'multipart/form-data',
 				processData: false,
@@ -170,7 +170,6 @@
 					}
 				},
 				error: function () {
-					alert("wwwwwwwww");
 					exit_loader();
 				}
 			})

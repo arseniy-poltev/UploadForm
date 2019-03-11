@@ -13,7 +13,7 @@ if (!function_exists('parse_csv')) {
 					continue;
 				}
 				foreach ($row as $k => $value) {
-					$array_data[$i][$array_fields[$k]] = $value;
+					$array_data[$i][$array_fields[$k]] = trim($value);
 				}
 				$i++;
 			}

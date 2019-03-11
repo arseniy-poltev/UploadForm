@@ -29,10 +29,11 @@ class location_model extends CI_Model
 		return true;
 	}
 
-	function Insert_or_update($data) {
+	function Insert_or_update($data, $type) {
 		$db_2 = $this->load->database('default_2_transform_data', TRUE);
-		$sql = "select * from " . $this->table . " where a_street like " . "'%" . $data['a_street'] . "%'";
-		$sql.= " or a_city like " . "'%" . $data['a_city'] . "%'";
+		$sql = "select * from " . $this->table . " where (a_street like " . "'%" . $data['a_street'] . "%'";
+		$sql.= " or a_city like " . "'%" . $data['a_city'] . "%')";
+		$sql .= " and type = '" . $type . "'";
 		$query = $db_2->query($sql);
 		$result = $query->result_array();
 
@@ -40,7 +41,7 @@ class location_model extends CI_Model
 			$id = $result[0]['id'];
 			$this->update($result[0]['id'], $data);
 		} else {
-			$data['type'] = 'Supplier';
+			$data['type'] = $type;
 			$id =$this->save($data);
 		}
 		return $id;
