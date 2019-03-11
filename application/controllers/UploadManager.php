@@ -233,7 +233,6 @@ class UploadManager extends CI_Controller
             }
         }
 
-//		return $url;
         $json_api = $model_2->exe_curl($url);
         return $json_api;
     }

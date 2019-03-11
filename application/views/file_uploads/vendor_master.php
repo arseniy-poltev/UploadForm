@@ -170,6 +170,7 @@
                     }
                 },
                 error: function () {
+                	alert("wwwwwwwww");
                     exit_loader();
                 }
             })

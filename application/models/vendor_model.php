@@ -2,7 +2,7 @@
 
 class vendor_model extends  CI_Model
 {
-    protected $table = 'm_transport_modes';
+    protected $table = 'm_vendors';
 
     public function get_count($sql){
         $db_2 = $this->load->database('default_2_transform_data', TRUE);
@@ -58,9 +58,9 @@ class vendor_model extends  CI_Model
         return true;
     }
 
-    function Insert_or_update($name, $data) {
+    function Insert_or_update($data) {
         $db_2 = $this->load->database('default_2_transform_data', TRUE);
-        $sql = "select * from " . $this->table . " where name like " . "'%" . $name . "%'";
+        $sql = "select * from " . $this->table . " where v_name like " . "'%" . $data['v_name'] . "%'";
         $query = $db_2->query($sql);
         $result = $query->result_array();
 
