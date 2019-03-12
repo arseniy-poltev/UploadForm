@@ -365,10 +365,21 @@ class Mysql
 		return json_decode($result, true);
 	}
 
-	public function getUrl($url, $country_code, $api_key)
+	public function getUrl($url, $val, $api_key, $type = 'country')
 	{
 		$api_key = ltrim(trim($api_key), '$');
-		$url = str_replace('$countrycode', $country_code, $url);
+
+		$search_key = '';
+		if ($type == 'country') {
+			$search_key = '$countrycode';
+		} else if ($type == 'city') {
+			$search_key = '$cityname';
+		} else if ($type == 'street') {
+			$search_key = '$street';
+		} else if ($type == 'zip') {
+			$search_key = '$zip';
+		}
+		$url = str_replace($search_key, $val, $url);
 		$url = str_replace('key=$key', $api_key, $url);
 		return $url;
 	}

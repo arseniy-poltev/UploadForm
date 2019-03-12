@@ -248,7 +248,7 @@
         data.append('array_fields', array_fields);
         $('#api_modal').modal('hide');
 
-        // loader();
+        loader();
         $.ajax({
             url: "<?php echo base_url(); ?>FileManager/upload_location",
             type: "post",

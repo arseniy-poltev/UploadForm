@@ -913,13 +913,6 @@ class FileManager extends CI_Controller
             )
                 move_uploaded_file($_FILES["upload_file"]["tmp_name"], $upload_filename);
 
-            /*
-               Parsing file content into Array
-           */
-
-            $start_num = $_POST['start_num'];
-            $end_num = $_POST['end_num'];
-
             $array_fields = array();
             if ($extention == 'csv'
                 || $extention == 'xls'
@@ -969,40 +962,250 @@ class FileManager extends CI_Controller
                 }
 
 
-                $country_key = '';
-                $r_state_key = '';
-                $r_cluster1_key = '';
-
-                foreach ($map_object as $key => $value) {
-                    if ($value == 'r_country') {
-                        $country_key = $key;
-                    } else if ($value == 'r_name') {
-                        $r_state_key = $key;
-                    } else if ($value == 'r_cluster_1') {
-                        $r_cluster1_key = $key;
-                    }
-                }
+				foreach ($array_data as $datum) {
 
 
-                foreach ($array_data as $datum) {
-                    $temp_item = array();
-                    foreach ($map_object as $key => $value) {
-                        $temp_item[$value] = trim($datum[$key]);
-                    }
+					$country_name = '';
+					$city_code = '';
+					$street_code = '';
+					$zip_code = '';
 
-                    $country_name = trim($datum[$country_key]);
+					$location_item = array();
+					$sales_regions = array();
+					$lsp_region = array();
 
-                    $model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_0);
-                    $country_model = $model_1->where('country', $country_name)->get('m_country_code');
 
-                    $country_code = $country_model[0]['code'];
-                    $r_state = trim($datum[$r_state_key]);
-                    $r_cluster_1 = trim($datum[$r_cluster1_key]);
+					foreach ($map_object as $key => $value) {
 
-                    $population_json = array();
+						if ($value == 'r_name') {
+							$sales_regions[$value] = $datum[$key];
+						} else if ($value == 'lsp_name') {
+							$lsp_region[$value] = $datum[$key];
+						} else {
+							$location_item[$value] = $datum[$key];
+						}
 
-                }
-            }
+						switch ($value) {
+							case 'a_country':
+								$country_name = $datum[$key];
+								break;
+							case 'a_city':
+								$city_code = $datum[$key];
+								break;
+							case 'a_street':
+								$street_code = $datum[$key];
+								break;
+							case 'a_zip':
+								$zip_code = $datum[$key];
+								break;
+						}
+					}
+
+
+					// get position data
+					if ($country_name) {
+						$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_0);
+						$country_model = $model_1->where('country', $country_name)->get('m_country_code');
+						if (count($country_model) > 0) {
+							$country_code = $country_model[0]['code'];
+						}
+					}
+
+					$location_item['a_country'] = $country_code;
+
+					$latitude = '';
+					$longitude = '';
+
+
+					$json_data = array();
+					if (in_array('19', $api)) {
+						$json_api = get_quandlApi_data(19, 'city', $city_code);
+						if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
+							$json_data['City Population'] = $json_api['dataset']['data'][0][1];
+						} else {
+							$json_data['City Population'] = '';
+						}
+					}
+
+
+					if (in_array('50', $api)) {
+						$json_api = get_quandlApi_data(50, 'country', $city_code);
+						if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
+							$json_data['World Development Indicators'] = $json_api['dataset']['data'][0][1];
+						} else {
+							$json_data['World Development Indicators'] = '';
+						}
+					}
+
+					if (in_array('51', $api)) {
+						$json_api = get_quandlApi_data(51, 'country', $city_code);
+						if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
+							$json_data['Doing Business 1'] = $json_api['dataset']['data'][0][1];
+						} else {
+							$json_data['Doing Business 1'] = '';
+						}
+					}
+
+					if (in_array('52', $api)) {
+						$json_api = get_quandlApi_data(52, 'country', $city_code);
+						if(isset($json_api['dataset']) && count($json_api['dataset']['data']) > 0) {
+							$json_data['Doing Business 2'] = $json_api['dataset']['data'][0][1];
+						} else {
+							$json_data['Doing Business 2'] = '';
+						}
+					}
+
+					$search = "address=" . $street_code . "+" . $zip_code . " + " . $city_code . " + " . $country_code;
+					if (in_array('62', $api)) {
+						if ($geocoding == 'google_map') {
+							$json_api = get_googleApi_data(62, $search);
+						}
+					} else if (in_array('69', $api)) {
+						if ($geocoding == 'uni_heid') {
+							$json_api = get_googleApi_data(69, $search);
+						}
+					}
+
+
+					if (isset($json_api['results'][0]['geometry'])) {
+						$latitude = $json_api['results'][0]['geometry']['location']['lat'];
+						$longitude = $json_api['results'][0]['geometry']['location']['lng'];
+					}
+
+					$sales_region_id = $this->sales_region_model->Insert_or_update($sales_regions);
+					$lsp_id = $this->lsp_model->Insert_or_update($lsp_region);
+
+
+					$location_item['a_latitude'] = $latitude;
+					$location_item['a_longitude'] = $longitude;
+					$location_item['operator'] = $lsp_id;
+					$location_item['a_sales_region'] = $sales_region_id;
+					if ($json_data) {
+						$location_item['a_additionals'] = json_encode($json_data);
+					}
+					$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
+					$sql1 = $model_1->insert($real_name, $datum);
+
+					$location_id = $this->location_model->Insert_or_update($location_item);
+				}
+
+				echo json_encode("success");
+			}
+			else {
+				echo json_encode("failure");
+			}
+
         }
     }
+
+    public function headcount() {
+		$this->load->view('file_uploads/common/header');
+		$this->load->view('file_uploads/headcount');
+	}
+
+	public function upload_headcount() {
+		$this->load->library('Mysql');
+		$target_file_root = 'assets\uploads';
+		$uploads_root = FCPATH . $target_file_root . '/';
+		$table_name = 'transport_equipment';
+
+		if (!is_null($_POST["file_name"])) {
+			$upload_filename = $uploads_root . $_POST['file_name'];
+			$extention = pathinfo($_FILES["upload_file"]["name"], PATHINFO_EXTENSION);
+
+			/*
+             Upload files into server
+            */
+
+			if (
+				$extention == 'csv'
+				|| $extention == 'xls'
+				|| $extention == 'xlsx'
+				|| $extention == 'json'
+			)
+
+				move_uploaded_file($_FILES["upload_file"]["tmp_name"], $upload_filename);
+			$array_fields = array();
+			if ($extention == 'csv'
+				|| $extention == 'xls'
+				|| $extention == 'xlsx'
+				|| $extention == 'json') {
+				switch ($extention) {
+					case 'csv':
+						$array_data = $array_fields = array();
+						$i = 0;
+						$handle = @fopen($upload_filename, "r");
+						if ($handle) {
+							while (($row = fgetcsv($handle, 4096)) !== false) {
+								if (empty($array_fields)) {
+									$array_fields = $row;
+									continue;
+								}
+								foreach ($row as $k => $value) {
+									$array_data[$i][$array_fields[$k]] = $value;
+								}
+								$i++;
+							}
+							if (!feof($handle)) {
+								echo "Error: unexpected fgets() fail\n";
+							}
+							fclose($handle);
+						}
+				}
+			}
+
+			$model_2 = new Mysql($this->host, $this->user, $this->password, $this->db_2);
+			$map_data = $model_2->where('table_name', $table_name)
+//								->where('file_name', $_POST["file_name"])
+				->get('field_mapping_table', 'f_field,d_field');
+
+			if ($map_data != false && count($map_data) > 0) {
+
+				/*
+                 Insert Data into DB_1 and DB_2
+                */
+				$real_name = preg_replace('/\\.[^.\\s]{3,4}$/', '', $_POST['file_name']);
+				$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
+
+				/*
+                  Create table with name as Filename
+                */
+				try {
+					$model_1->create_table($array_fields, $real_name);
+				} catch (Exception $exception) {
+
+				}
+
+				/*
+                   Empty db_2 table
+                 */
+				if ($_POST['table_replace_selector'] == 'replace') {
+					$model_2 = new Mysql($this->host, $this->user, $this->password, $this->db_2);
+					$model_2->Empty_table($table_name);
+				}
+
+				foreach ($map_data as $item) {
+					$map_object[$item['f_field']] = $item['d_field'];
+				}
+
+
+				foreach ($array_data as $datum) {
+					$temp_item = array();
+
+					foreach ($map_object as $key => $value) {
+						$temp_item[$value] = trim($datum[$key]);
+					}
+
+					$model_1 = new Mysql($this->host, $this->user, $this->password, $this->db_1);
+					$sql1 = $model_1->insert($real_name, $datum);
+
+					$row_data = $this->transport_equipment->get_equipment_data($temp_item);
+					$res = $this->transport_equipment->Insert_or_update($row_data['serial_number'], $row_data);
+				}
+				echo json_encode('success');
+			} else {
+				echo json_encode('false');
+			}
+		}
+	}
 }
