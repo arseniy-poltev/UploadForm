@@ -4,39 +4,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class FileManager extends CI_Controller
 {
-	protected $host;
-	protected $user;
-	protected $password;
-	protected $db_0;
-	protected $db_1;
-	protected $db_2;
-	protected $db_portal;
+    protected $host;
+    protected $user;
+    protected $password;
+    protected $db_0;
+    protected $db_1;
+    protected $db_2;
+    protected $db_portal;
 
-	public function __construct()
-	{
-		parent::__construct();
-		$this->config->load('custom_db');
-		$this->load->model('transport_mode');
-		$this->load->model('materials_model');
-		$this->load->model('transport_equipment');
-		$this->load->model('location_model');
-		$this->load->model('vendor_model');
+    public function __construct()
+    {
+        parent::__construct();
+        $this->config->load('custom_db');
+        $this->load->model('transport_mode');
+        $this->load->model('materials_model');
+        $this->load->model('transport_equipment');
+        $this->load->model('location_model');
+        $this->load->model('vendor_model');
+        $this->load->model('customer_model');
+        $this->load->model('sales_organization_model');
+        $this->load->model('sales_region_model');
+        $this->load->model('lsp_model');
 
-		$this->host = $this->config->item('host');
-		$this->user = $this->config->item('user');
-		$this->password = $this->config->item('password');
-		$this->db_0 = $this->config->item('database_0');
-		$this->db_1 = $this->config->item('database_1');
-		$this->db_2 = $this->config->item('database_2');
-		$this->db_portal = $this->config->item('database_portal');
-	}
 
-	/* Transport Modes */
-	public function transportModes()
-	{
-		$this->load->view('file_uploads/common/header');
-		$this->load->view('file_uploads/transport_modes');
-	}
+        $this->host = $this->config->item('host');
+        $this->user = $this->config->item('user');
+        $this->password = $this->config->item('password');
+        $this->db_0 = $this->config->item('database_0');
+        $this->db_1 = $this->config->item('database_1');
+        $this->db_2 = $this->config->item('database_2');
+        $this->db_portal = $this->config->item('database_portal');
+    }
+
+    public function transportModes()
+    {
+        $this->load->view('file_uploads/common/header');
+        $this->load->view('file_uploads/transport_modes');
+    }
 
     public function upload_transport_modes()
     {
